@@ -1,0 +1,4294 @@
+input::-ms-clear {
+display: none;
+}
+input::-ms-reveal {
+display: none;
+}
+td, span, div, p, a, h1, h2, h3, h4, label, select, option, input, img {
+font-family: Arial, sans-serif;
+font-size: 13px;
+font-weight: normal;
+}
+[name="rlStackHybridTable EXISTS"] {
+visibility: hidden;
+}
+#moreOptions
+{
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+body
+{
+margin: 0px;
+padding: 0px;
+border: none;
+background-color: transparent;
+color: #000000;
+font-family: Arial, sans-serif;
+font-size: 12px;
+overflow: auto;
+cursor: wait;
+}
+.Bold {
+font-weight:bold !important;
+}
+.loginPage {
+background-image: radial-gradient(circle farthest-side,#0073ba,#0032a2);
+zoom: 1.0;
+}
+body.alertBox
+{
+background-color: #f9f9f9;
+overflow: hidden;
+}
+body.alertBox #lblTitleBox
+{
+width:100%;
+height:40px;
+vertical-align:middle;
+background: #7d7d7d;
+color: #FFFFFF;
+font-size: 18px;
+text-align: center;
+}
+body.alertBox table.formButtons
+{
+float: none;
+}
+body.alertBox .tbox
+{
+overflow: hidden;
+}
+td.formBody, td.dialogBoxBody
+{
+margin: 0px;
+width: 100%;
+background: #f9f9f9;
+max-width:100%;
+}
+td.btnTransformNext
+{
+text-align: center;
+padding: 0px;
+margin: 0px;
+border: 0px;
+background: transparent url(../images/styling/TransformNextButton.gif) no-repeat;
+height: 23px;
+}
+td.btnTransformBack
+{
+text-align: center;
+padding: 0px;
+margin: 0px;
+border: 0px;
+background: transparent url(../images/styling/TransformBackButton.gif) no-repeat;
+height: 23px;
+}
+table.btn_normal td.btnNext, table.btn_normal td.btnBack, table.btn_normal td.btnTransformBack,table.btn_normal td.btnTransformUp,table.btn_normal td.btnTransformDown, table.btn_normal td.btnTransformNext {background-position: 0px 0px;}
+table.btn_normal {color: #000000;}
+table.btn_pressed td.btnNext,table.btn_pressed td.btnBack,table.btn_pressed td.btnTransformBack,table.btn_pressed td.btnTransformNext,table.btn_pressed td.btnTransformUp,table.btn_pressed td.btnTransformDown {background-position: 0px -30px;}
+table.btn_pressed {color: #1FA0D5;}
+table.btn_hover td.btnNext,table.btn_hover td.btnBack,table.btn_hover td.btnTransformBack,table.btn_hover td.btnTransformNext,table.btn_hover td.btnTransformUp,table.btn_hover td.btnTransformDown {background-position: 0px -60px;}
+table.btn_hover {color: #000000;}
+table.btn_disabled td.btnNext,table.btn_disabled td.btnBack,table.btn_disabled td.btnTransformBack,table.btn_disabled td.btnTransformNext,table.btn_disabled td.btnTransformUp,table.btn_disabled td.btnTransformDown {background-position: 0px -90px;}
+table.btn_disabled {color: #8E8E8E;}
+div
+{
+padding: 0px;
+margin: 0px;
+border: none;
+font-family: Arial, sans-serif;
+font-size: 12px;
+}
+div.veil
+{
+position: absolute;
+z-index: 10;
+width: 100%;
+height: 100%;
+background-color: #ffffff;
+top: 0px;
+left: 0px;
+display: none;
+cursor: not-allowed;
+filter: alpha(opacity=0);
+opacity: 0.0;
+}
+form
+{
+cursor: wait;
+}
+form, img
+{
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+h3
+{
+padding: 0px 0px 10px 0px;
+margin: 0px;
+border: none;
+font-size: 18px;
+font-weight: normal;
+color: #000000;
+}
+tr[id="1680~2430"].openUp a:last-child {
+letter-spacing: -0.2px;
+}
+#clearFloat {
+width: 100%;
+overflow: hidden;
+clear: both;
+}
+.hidesmart {
+display: none !important;
+}
+#Table2 {
+text-align: left;
+}
+#tdEdit table.btn_normal, #tdEdit table.btn_hover, #tdEdit table.btn_pressed, #tdEdit table.btn_disabled, #tdEdit table.btn_default,
+#Table2 table.btn_normal, #Table2 table.btn_hover, #Table2 table.btn_pressed, #Table2 table.btn_disabled, #Table2 table.btn_default,
+.leftA > tbody > tr > td > table.btn_normal,
+.leftA > tbody > tr > td > table.btn_hover,
+.leftA > tbody > tr > td > table.btn_pressed,
+.leftA > tbody > tr > td > table.btn_disabled,
+.leftA > tbody > tr > td > table.btn_default,
+table:not(#tblBtn):not(#Table2):not(.leftA):not(.buttover) > tbody > tr > td > table.btn_normal,
+table:not(#tblBtn):not(#Table2):not(.leftA):not(.buttover) > tbody > tr > td > table.btn_hover,
+table:not(#tblBtn):not(#Table2):not(.leftA):not(.buttover) > tbody > tr > td > table.btn_pressed,
+table:not(#tblBtn):not(#Table2):not(.leftA):not(.buttover) > tbody > tr > td > table.btn_disabled,
+table:not(#tblBtn):not(#Table2):not(.leftA):not(.buttover) > tbody > tr > td > table.btn_default {
+margin: 0 10px 0 0;
+}
+.ipconf_IPv6Interface_m_jq_body #lblTblCaption #lblTblName,
+.ipconf_IPv6Interface_m_jq_body #tblIPv6InterfacesList > thead > tr > th,
+.IPv6_routes_m_jq #lblTblName
+{font-weight:bold !important;}
+.ipconf_IPv6Interface_m_jq_body #tbl_IPv6Interfaces_Body > tr > td {border-right:1px solid white;}
+.ipconf_IPv6Interface_m_jq_body #tbl_IPv6Interfaces_Body > tr > td:last-child {border-right:none;}
+.ipconf_IPv6Interface_m_jq_body #tbl_IPv6Interfaces_Body > tr > td {padding:0px 10px 0px 10px;}
+.IPv6_routes_m_jq .row td
+{
+padding-left: 8px !important;
+padding-right: 8px !important;
+border-right: 1px solid #FFF;
+}
+.IPv6Neighbors #trHeader label {display:none;}
+.defaultGateway_thead_tr #lblHdrAddr,
+.defaultGateway_thead_tr #lblHdrInterface,
+.defaultGateway_thead_tr #lblHdrType,
+.defaultGateway_thead_tr #lblHdrState,
+.defaultGateway_thead_tr #lblHdrMetric
+{font-weight:bold;}
+.defaultGateway_thead_tr label[for="checkAll"],
+.defaultGateway_thead_tr #checkAll
+{display:none;}
+.defaultGateway_tbody > td,
+.bridg_vlan_gvrpParam_e .tdPortSelect{padding-left:10px;padding-right:10px;}
+.defaultGateway_tbody > td {border-right:1px solid white;}
+.defaultGateway_tbody > td:last-child {border-right:none;}
+.defaultGateway_tbody label[for^="chb_"] {margin-right:8px;}
+.system_ipconf_ipInterface_m td.EnumCell,
+.system_ipconf_ipInterface_m td.StringCell,
+.system_ipconf_ipInterface_m td.BinaryCell
+{
+padding-left:10px;
+padding-right:10px;
+border-left:1px solid white;
+}
+.system_ipconf_ipInterface_m label[for="chkRouting"] {margin-right:10px;}
+.system_ipconf_ipInterface_m tr#tblForwardFormButtons,
+.bridg_vlan_gvrpParam_m .formButtons
+{background-color:White;}
+.ipRoutE .controlLabel #errMetric,
+.system_ipconf_ipInterface_a label[for="txtIPAdEntNetMask"]
+{white-space: nowrap;}
+.system_ipconf_ipInterface_a #lblDynamicIP {margin-right:20px;}
+.system_ipconf_ipInterface_e .errMesTrInt td:last-child .contextMessageTop {margin-left:377px;}
+.system_ipconf_ipInterface_e .errMesTrInt td:first-child .contextMessageTop {margin-left:255px;}
+.system_ipconf_ipInterface_e #errMask,
+.system_ipconf_ipInterface_e #errPrefix{white-space: nowrap;}
+.system_ipconf_ipInterface_e #txtIPAdEntNetMask{width:130px;}
+.system_ipconf_ipInterface_e #txtIPAdEntNetPrefix{width:50px;}
+.system_ipconf_ipInterface_e span[id="lblNetworkMask"],
+.system_ipconf_ipInterface_e span[id="lblPrefix"]{margin-right:10px;}
+.ip_routHTM .tblName {font-weight:bold;}
+.ip_routHTM tr[id^="row_"] > td {border-right:1px solid white;padding-left:10px;padding-right:10px;}
+.ip_routHTM .lastTd {border-right:none;}
+.ip_rout_a_html tr[id^="tr_rdoStaticRouteTypeReject_"]{float:left;}
+.ip_rout_a_html tr[id^="tr_rdoStaticRouteTypeRemote_"]{float:right;}
+.ip_rout_a_html label[for="txtNextHop"] {margin-right:0px !important;}
+.ip_rout_a_html tr[id^="tr_rdoStaticRouteTypeReject_"] > td.right {width:57px;}
+.ip_rout_a_html tr[id^="tr_rdoStaticRouteTypeReject_"] > td,
+.ip_rout_a_html tr[id^="tr_rdoStaticRouteTypeRemote_"] > td{margin-right:10px;}
+.ip_rout_a_html .main_table_ip_rout_a {margin-left:20px;}
+.ip_rout_a_html .main_table_ip_rout_a .ctrlSpacing {padding-bottom:15px;width:1px;}
+.ip_rout_a_html label[for="rdoStaticRouteTypeReject"],
+.ip_rout_a_html label[for="rdoStaticRouteTypeRemote"]{margin-right:10px;}
+.ip_rout_a_html #pageMessageID {margin-left:20px;}
+.ip_rout_a_html #lblRangeMetric {margin-left:10px;}
+.ip_rout_a_html label[for="txtMetric"] {margin-right:0px !important;width:1px;}
+.bridg_spanTree_stp_interfaceStngs_Port_e label.left,
+.bridg_spanTree_stp_interfaceStngs_Lag_e label.left {margin-right:0px !important;}
+.bridg_spanTree_stp_interfaceStngs_Port_e label[for="txtPathCost"],
+.bridg_spanTree_stp_interfaceStngs_Lag_e label[for="txtPathCost"]{white-space: nowrap;}
+.bridg_spanTree_stp_interfaceStngs_Port_e tr[id^="tr_rdoGlobal_"] .radioSpacing.right:first-child,
+.bridg_spanTree_stp_interfaceStngs_Lag_e tr[id^="tr_rdoGlobal_"] .radioSpacing.right:first-child{width:1px !important;margin-right:10px;}
+.bridg_spanTree_stp_interfaceStngs_Lag_e .longLag .right,
+.bridg_spanTree_stp_interfaceStngs_Port_e .longPort .right{width:1px !important;padding-right:20px;}
+table.formButtons, table.dialogButtons, .sortButton {
+float: left;
+height: 50px;
+}
+.qos_policyClassMaps_m #tdLbl_lblFilter_EqualsTo,
+.qos_policyClassMaps_m #tdLbl_lblFilter {display:none;}
+.sortButton {
+display: table;
+width: 100%;
+}
+.Traceroute #tblBodyTraceroute > tr > td
+{
+padding-left:8px !important;
+padding-right:8px !important;
+border-right:1px solid #ffffff;
+}
+#txtIpAddress,
+#txtNetworkMask {
+width: 130px;
+}
+a {
+display: inline-block;
+padding: 5px;
+}
+.oMGOvXH {overflow-x:hidden;}
+.oMGOvXH #xmlresult .vlanMemberships .rbTable td.lable label.left {
+margin-right: 0;
+}
+.dialogBox table.btn_normal a, .dialogBox table.btn_hover a, .dialogBox table.btn_pressed a, .dialogBox table.btn_disabled a, .dialogBox table.btn_default a, .setHostSelect #defaultButton_tdNode a,
+#Table5 .setHostSelect #defaultButton_tdNode, #defaultButton_tdNode
+{
+height: 26px;
+text-align: center;
+vertical-align: middle;
+width: 100px;
+}
+#tdBtnGo table.btn_normal a, #tdBtnGo table.btn_hover a, #tdBtnGo table.btn_pressed a, #tdBtnGo table.btn_disabled a, #tdBtnGo table.btn_default a
+{
+display: inherit;
+height: 26px;
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+vertical-align: middle;
+width: auto;
+}
+#tdBtnClear table.btn_normal a, #tdBtnClear table.btn_hover a, #tdBtnClear table.btn_pressed a, #tdBtnClear table.btn_disabled a, #tdBtnClear table.btn_default a {
+display: inherit;
+height: 26px;
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+vertical-align: middle;
+width: auto;
+}
+td#tdBtnCopy {display: none;}
+.dialogBox input.text,
+.dialogBox input, .dialogBox textarea, .dialogBox select
+{
+width: 200px;
+}
+@-moz-document url-prefix() {
+.dialogBox select {
+width:calc(100% + 18px) !important;
+}
+.dialogBox.ipconf_arp_e select,
+.dialogBox.QueuesStatistics select {
+width: 158px;
+}
+}
+.dialogBoxBody textarea
+{
+height: 24px;
+width: 200px;
+}
+.dialogBox .overr {
+background: #FFFFFF url("../images/dropdownarrows.gif") no-repeat scroll right center;
+border: 1px solid #A5A5A5;
+display: inline-block;
+height: 24px;
+margin-right: 10px;
+overflow: hidden;
+vertical-align: middle;
+width: 108px;
+}
+#defaultButton:focus
+{
+outline:none !important;
+}
+select::-ms-expand {
+display: none;
+}
+.dialogBox select {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+border: 0 none;
+border-radius: 0 0 0 0;
+font-size: 13px;
+height: 24px;
+padding: 3px;
+width: 108px;
+-webkit-appearance: none;
+-o-appearance:none;
+-khtml-appearance:none;
+appearance:none;
+-moz-appearance: none;
+text-indent: 0.01px;
+text-overflow: '' ;
+}
+table.btn_normal, table.btn_hover, table.btn_pressed, table.btn_disabled, table.btn_default
+{
+border-collapse: collapse;
+border-spacing: 0px;
+table-layout: auto;
+border: 0px;
+padding: 0px;
+white-space: nowrap;
+cursor: pointer;
+}
+table.btn_normal a, table.btn_hover a, table.btn_pressed a, table.btn_disabled a, table.btn_default a
+{
+padding: 0px;
+margin: 0px;
+border: 0 none;
+cursor: pointer;
+text-decoration: none;
+white-space: nowrap;
+font-weight: bold;
+font-size: 13px;
+}
+td.btnTD2
+{
+text-align: center;
+padding: 0px;
+margin: 0px;
+}
+td.btnTD1, td.btnTD3 {
+display: none;
+}
+.btnTD2 {
+width: auto !important;
+}
+.loginPage table.btn_normal a, .loginPage table.btn_hover a, .loginPage table.btn_pressed a, .loginPage table.btn_disabled a, .loginPage table.btn_default a
+{
+display: inherit;
+height: 26px;
+text-align: center;
+vertical-align: middle;
+width: 120px;
+}
+.loginPage table.btn_normal a {color:#fff;background:#70A0D4;}
+.loginPage table.btn_normal td.btnTD1, .loginPage table.btn_normal td.btnTD3 {background:#70A0D4;}
+.loginPage table.btn_pressed a, .setHostSelect .btn_pressed {color: #fff;background: #0068d9;}
+.loginPage table.btn_pressed td.btnTD1, .loginPage table.btn_pressed td.btnTD3 {background: #0068d9;}
+.loginPage table.btn_hover a, .setHostSelect .btn_hover {color: #fff;background: #64798f;}
+.loginPage table.btn_hover td.btnTD1, .loginPage table.btn_hover td.btnTD3 {background: #64798f;}
+.loginPage table.btn_disabled a, .setHostSelect .btn_disabled {
+color: #fff;
+background: #70A0D4;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)";
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+-moz-opacity: 0.4;
+-khtml-opacity: 0.4;
+opacity: 0.4;
+}
+.loginPage table.btn_disabled td.btnTD1, .loginPage table.btn_disabled td.btnTD3 {
+background: #70A0D4;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)";
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+-moz-opacity: 0.4;
+-khtml-opacity: 0.4;
+opacity: 0.4;
+}
+.loginPage table.btn_default a {color: #fff;background:#70A0D4;}
+.loginPage table.btn_default td.btnTD1, .loginPage table.btn_default td.btnTD3 {background:#70A0D4;}
+.security_network_stormControl_m td[id*="lblFormatted_Index_"],
+.security_network_stormControl_m td[id*="lblFormatted_BroadRatePercent_"],
+.security_network_stormControl_m #sPagination,
+.Trusted_Interfaces_m #sPagination
+{display:none !important;}
+.security_network_stormControl_e .pageMessage {width:600px !important;}
+.security_network_stormControl_e .dialogBoxBody {padding:0px !important;}
+.security_network_stormControl_e tr.trhr td {padding-top:0px !important;}
+.security_network_stormControl_e label[for="rdoBroadModeUnkUniMultiBroad"],
+.security_network_stormControl_e label[for="rdoBroadModeMultiBroad"],
+.security_network_stormControl_e label[for="rdoBroadModeBroadOnly"]
+{margin-right:10px;}
+.security_network_stormControl_e #lblHint {padding-left:10px;}
+.security_network_stormControl_e tr#tr_rdoBroadModeMultiBroad_7 .radioSpacing
+{padding-bottom:15px;}
+.security_network_stormControl_e #lblUnkUniMultiBroad
+{
+position: relative;
+}
+.security_network_stormControl_e .pageMessage {
+margin-left: 10px;
+}
+table.btn_normal a, table.btn_hover a, table.btn_pressed a, table.btn_disabled a, table.btn_default a
+{
+display: inherit;
+height: 26px;
+text-align: center;
+vertical-align: middle;
+width: 100px !important;
+}
+table.btn_normal #Back_tdNode a,
+table.btn_normal #btnJoinVLAN_tdNode a,
+table.btn_normal #defaultButton_tdNode a,
+table.btn_normal #btnAddRule_tdNode a,
+table.btn_normal #btnRefresh_tdNode a,
+table.btn_normal #addButton_tdNode a,
+table.btn_normal #btnEdit_tdNode a,
+table.btn_normal #btnEdt_tdNode a,
+table.btn_normal #btnDelete_tdNode a,
+table.btn_normal #btnView_tdNode a,
+table.btn_normal #btnAdd_tdNode a#btnAdd,
+table.btn_normal #btnShow_tdNode a#btnShow,
+table.btn_normal #btnClear_tdNode a#btnClear,
+table.btn_normal a#btnGo,
+table.btn_normal a#btnClearFilter,
+table.btn_normal a#edtBtn,
+table.btn_normal #btnOk_tdNode a#btnOk,
+table.btn_normal #GoOnHistoryTable,
+table.btn_normal #editButton_tdNode,
+table.btn_normal #deleteButton_tdNode,
+table.btn_normal #btnInterfaceTable_tdNode a#btnInterfaceTable,
+table.btn_normal a#btnSupport
+{color: #fff;background:#70A0D4;}
+table.btn_normal #editButton_tdNode a,
+table.btn_normal #deleteButton_tdNode a { color:white; }
+table.btn_normal #btnClearControls_tdNode a,
+table.btn_normal #btnDelRule_tdNode a,
+table.btn_normal #btnClearAllInterfacesCounters_tdNode a,
+table.btn_normal #btnSinglePortview_tdNode a,
+table.btn_normal #btnClearControls_tdNode a,
+table.btn_normal #btnSinglePortview_tdNode a,
+table.btn_normal #btnClose_tdNode a,
+table.btn_normal #btnCancel_tdNode a,
+table.btn_normal #btnReset_tdNode a,
+table.btn_normal #btnDel_tdNode a,
+table.btn_normal #btnDetails_tdNode a,
+table.btn_normal #btnDefault_tdNode a,
+table.btn_normal a#btnGoSort,
+table.btn_normal a#btnClear,
+table.btn_normal a#closeButton,
+table.btn_normal a#btnRestore
+{color: #fff;background:#7d7d7d;}
+table.btn_pressed a {color: #fff;background: #0068d9;}
+table.btn_pressed td.btnTD1, table.btn_pressed td.btnTD3 {background: #0068d9;}
+table.btn_hover a {color: #fff;background: #64798f;}
+table.btn_hover td.btnTD1, table.btn_hover td.btnTD3 {background: #64798f;}
+table.btn_disabled a {
+color: #fff;
+background: #70A0D4;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)";
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+-moz-opacity: 0.4;
+-khtml-opacity: 0.4;
+opacity: 0.4;
+}
+table.btn_disabled td.btnTD1, table.btn_disabled td.btnTD3 {
+background: #70A0D4;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)";
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+-moz-opacity: 0.4;
+-khtml-opacity: 0.4;
+opacity: 0.4;
+}
+table.btn_default a {color: #fff;background:#70A0D4;}
+table.btn_default td.btnTD1, table.btn_default td.btnTD3 {background:#70A0D4;}
+textarea, select
+{
+padding: 0px;
+margin: 0px;
+color: #000000;
+line-height: 24px;
+background: #ffffff;
+color: #303030;
+border: 1px solid #A5A5A5;
+}
+input {
+padding: 0 8px;
+margin: 0px;
+color: #000000;
+height: 24px;
+line-height: 24px;
+background: #ffffff;
+color: #303030;
+border: 1px solid #A5A5A5;
+}
+input.checkbox, input.checkboxStd
+{
+margin-top: 1px;
+width: 13px;
+height: 13px;
+vertical-align: middle;
+}
+input.radio, input.radioStd
+{
+margin: 1px 0px 0px 0px;
+vertical-align: baseline;
+}
+input.checkboxStd, input.radioStd
+{
+margin-top: 0px;
+margin-bottom: 1px;
+vertical-align: middle;
+}
+input.text
+{
+height: 21px;
+}
+input.textStd
+{
+height: 24px;
+}
+label
+{
+padding: 0px;
+margin: 0px;
+background-color: transparent;
+vertical-align: baseline;
+}
+label img
+{
+background: transparent url(../styling/images/required.gif) no-repeat;
+background-position: 0px 0px;
+}
+table, td, th
+{
+border-collapse: collapse;
+border-spacing: 0px;
+border: none;
+padding: 0px;
+margin: 0px;
+white-space: nowrap;
+vertical-align: middle;
+text-align: left;
+}
+caption
+{
+text-align: left;
+padding: 0px;
+}
+thead, tbody, tfoot
+{
+border: none;
+padding: 0px;
+margin: 0px;
+background-color: transparent;
+}
+table.dataTable
+{
+width: 100%;
+background: #F9F9F9;
+}
+table.dataTable caption
+{
+background-color: #F9F9F9;
+font-weight: bold;
+line-height: 22px;
+}
+table.dataTable caption.safari
+{
+padding: 0px;
+width: 100%;
+height: 24px;
+}
+table.dataTable caption.safari *.safari
+{
+padding: 0px 8px;
+}
+.SnoopingGroups_IGMP_IP_Group_Addresses > thead tr:first-child th {
+padding: 4px 8px;
+background-color: #ebebeb;
+border: 1px solid #e2e2e2 !important;
+border-bottom:none;
+border-width:1px !important;
+color: #303030;
+font-weight: normal;
+line-height: 20px;
+overflow: hidden;
+vertical-align: top;
+font-size: 12px;
+}
+.SnoopingGroups_IGMP_IP_Group_Addresses #trHeader
+{
+border-width:1px !important;
+border-right: 1px solid #e2e2e2 !important;
+border-left: 1px solid #e2e2e2 !important;
+border-bottom:none;
+border-top:none;
+}
+.SnoopingGroups_IGMP_IP_Group_Addresses .pagination {margin-right:130px !important;}
+#RTIGMPMLDSnoopGroupList_emptyCell
+{
+border-width:1px !important;
+border-top:none;
+border-collapse:separate;
+}
+#RTIGMPMLDSnoopGroupList.dataTable th#SnoopingGroups_IGMP_IP_Group_Addresses table td.TDfilterRow table td input {margin-top:0}
+.SnoopingGroups_IGMP_IP_Group_Addresses #trHeader th {text-align:center;}
+.bindingDatabase_smartSwitch #DhcpSnoopingBindingDatabaseTable tr#trHeader th {height:20px !important}
+.bindingDatabase_smartSwitch #DhcpSnoopingBindingDatabaseTable_emptyCell {border-left:1px solid #e2e2e2;border-right:1px solid #e2e2e2;}
+.bindingDatabase_smartSwitch #trHeader:first-child {border-left:1px solid #e2e2e2;}
+.bindingDatabase_smartSwitch #pager {border-right:1px solid #e2e2e2;}
+.bindingDatabase_smartSwitch tr[id^=row_]:first-child {border-left:1px solid #e2e2e2 !important;}
+.bindingDatabase_smartSwitch tr[id^=row_]:last-child {border-right:1px solid #e2e2e2 !important;}
+.bindingDatabase_smartSwitch #sPagination {float:right;z-index:999;position:absolute;right:150px;margin-top:-3px;}
+.bindingDatabase_smartSwitch #sPagination div.overr {margin-right:0;}
+.bindingDatabase_smartSwitch #Table9 {margin-left: 10px;}
+.bindingDatabase_smartSwitch #tblInterfaceSelector div.overr {width: 88px;}
+.bindingDatabase_smartSwitch #tblInterfaceSelector div.overr select {width: 88px;}
+@-moz-document url-prefix() {
+.bindingDatabase_smartSwitch #tblInterfaceSelector div.overr select {
+width: 126px;
+}
+}
+.bindingDatabase_smartSwitch .lastTh img {width:80px;height:1px;}
+.SnoopingGroups_IGMP_IP_Group_Addresses .filterRow .TDfilterRow {padding-left:10px;padding-right:13px;}
+.SnoopingGroups_IGMP_IP_Group_Addresses #RTIGMPMLDSnoopGroupList tbody
+{
+border-width:1px !important;
+border-right: 1px solid #e2e2e2 !important;
+border-left: 1px solid #e2e2e2 !important;
+border-bottom: 1px solid #e2e2e2 !important;
+border-top:none;
+}
+.SnoopingGroups_IGMP_IP_Group_Addresses #RTIGMPMLDSnoopGroupList tbody td
+{
+text-align:center;
+border-right:1px solid white;
+}
+.DhcpSnoopingBindingDatabaseTable_tfoot
+{
+border-left:1px solid #e2e2e2 !important;
+border-right:1px solid #e2e2e2 !important;
+border-bottom:1px solid #e2e2e2 !important;
+border-top:none;
+}
+.DhcpSnoopingBindingDatabaseTable_tfoot #DhcpSnoopingBindingDatabaseTable_emptyCell
+{
+border-left:1px solid #e2e2e2 !important;
+border-right:1px solid #e2e2e2 !important;
+}
+table#DhcpSnoopingBindingDatabaseTable.dataTable thead tr:first-child th {padding: 15px 0px 2px 20px !important;}
+table.dataTable th:not([colspan]) {
+padding: 4px 8px !important;
+background-color: #CCE1F7;
+border-left: 1px solid #FFFFFF;
+color: #303030;
+font-weight: normal;
+line-height: 20px;
+overflow: hidden;
+vertical-align: top;
+font-size: 12px;
+width: 0px;
+}
+table.dataTable > tr > th:nth-of-type(1) {
+border-left: inherit;
+}
+table.dataTable tr[id^="row_"] > td:nth-of-type(1),
+table.dataTable .row_uniq {
+border-left: inherit;
+padding-left: 8px !important;
+padding-right: 8px !important;
+}
+#containeroLLDPPortSet .row_uniq
+{
+border-left:1px solid #fff;
+}
+table.dataTable .lastTh {
+white-space: nowrap;
+width: 100% !important;
+}
+.bindingDatabase_smartSwitch table.dataTable tr#trHeader th:first-child {
+border-left:none !important;
+}
+table#RTIPMulticastGroup tr#forMoreOption th, tr#headLine th:first-child
+{
+border-left:none !important;
+border-top-width: 1px !important;
+border-right-width: 1px !important;
+border-left-width: 1px !important;
+border-bottom-width: 1px !important;
+}
+tr#headLine th[class="StringCell lastTh"], tr#headLine th[class="lastTH"]
+{
+border-right:1px solid #e2e2e2 !important;
+border-top-width: 1px !important;
+border-right-width: 1px !important;
+border-left-width: 1px !important;
+border-bottom-width: 1px !important;
+}
+table#RTMulticastGroup tr#forMoreOption th:first-child
+{
+border-left:none !important;
+border-right: 1px solid #E2E2E2 !important;
+}
+.bindingDatabase_smartSwitch .filterRow > td {padding-bottom:12px !important;}
+.bindingDatabase_smartSwitch tr.filterRow td {padding-left:0;padding-right:0;}
+.bindingDatabase_smartSwitch #tdLblPort, .bindingDatabase_smartSwitch #tdLblLag {padding-right:10px;padding-left:10px;}
+#RTIGMPMLDSnoopGroupList.SnoopingGroups_IGMP_IP_Group_Addresses td.StringCell,
+#RTIGMPMLDSnoopGroupList.SnoopingGroups_IGMP_IP_Group_Addresses td.EnumCell
+{border-left:1px solid white !important;}
+#RTIGMPMLDSnoopGroupList.SnoopingGroups_IGMP_IP_Group_Addresses td.StringCell,
+#RTIGMPMLDSnoopGroupList.SnoopingGroups_IGMP_IP_Group_Addresses td.EnumCell,
+#RTIGMPMLDSnoopGroupList.SnoopingGroups_IGMP_IP_Group_Addresses td.NumberCell
+{padding:0px 10px;}
+#RTIGMPMLDSnoopGroupList #lblHdtComp, #RTIGMPMLDSnoopGroupList_emptyCell {border-right:1px solid #e2e2e2 !important;}
+.DisplayNoneForXMLhtml {
+display:none;
+}
+.tdXMLDefaultGateway {
+padding:4px 8px;
+border-right:1px solid white !important;
+}
+.tdXMLDefaultGatewayCheckbox
+{
+padding-right:10px !important;
+border-right:1px solid white !important;
+}
+#tblGateway #lblInterfaceVal {position:relative;top:4px;left:9px;}
+table.dataTable th input {
+margin-top: 3px;
+}
+table.dataTable td {
+line-height: 24px;
+}
+table.dataTable td span {
+font-size: 12px;
+}
+table.dataTable td span span[id] {
+padding-right: 2px;
+}
+table.dataTable tbody tr td#tdFilterSelect {
+padding: 10px 0 10px 20px;
+}
+#sPagingFooter {
+display: block;
+margin-top: 0;
+}
+table.dataTable tfoot td td
+{
+border: none;
+}
+table.dataTable tfoot td td td
+{
+padding: 0px;
+}
+table.dataTable caption span.pagination {
+font-weight: normal;
+float: right;
+}
+label.leftToCmb {
+padding-right: 10px;
+}
+tr.evenTR
+{
+background: #ebebeb;
+}
+tr.selected
+{
+color: #ffffff;
+background: #0068d9;
+}
+tr.selected td
+{
+color: #ffffff;
+background: #0068d9;
+border-left:1px solid white;
+}
+tr.selected td span
+{
+color: #ffffff;
+background: #0068d9;
+}
+table.contextMessageRight, table.contextMessageTop
+{
+display: none;
+}
+table.contextMessageRight td, table.contextMessageTop td
+{
+white-space: normal;
+}
+table.contextMessageRight label, table.contextMessageTop label
+{
+color: #af0000;
+}
+table.pageMessage
+{
+display: none;
+margin: 5px 0px 15px 0px;
+padding: 0px;
+}
+body.dialogBox table.pageMessage
+{
+width: 500px;
+margin-top: 15px;
+}
+body.dialogBox .ctrlSpacing > table {
+float: left;
+padding-top: 4px;
+}
+table.pageMessage td, table.pageMessage div
+{
+padding-right: 5px;
+vertical-align: middle;
+font-size: 14px;
+white-space: normal;
+}
+table.pageMessage td td
+{
+padding: 0px;
+}
+table.pageMessage td.critical div
+{
+color: #E9102A;
+}
+a.onLight, a.onLight:visited
+{
+color: #0088C2;
+text-decoration: none;
+font-weight: normal;
+font-size: 12px;
+}
+a.onLight:hover
+{
+color: #0088C2;
+text-decoration: underline;
+}
+a.onLight:active
+{
+text-decoration: none;
+color: #000000;
+font-weight: bold;
+}
+a.onDark, a.onDark:visited, a.onDark:hover
+{
+color: #ffffff;
+text-decoration: underline;
+font-size: 12px;
+}
+a.onDark:active
+{
+text-decoration: none;
+font-weight: bold;
+}
+img.hr
+{
+margin: 0;
+width: 100%;
+height: 1px;
+}
+.hint,
+.hint span {
+color: #8E8E8E !important;
+}
+.instructionalText
+{
+white-space: normal;
+padding-bottom: 15px;
+}
+div.dvLogoutMsg
+{
+left: 50%;
+margin: 30px auto 0 -198px;
+position: absolute;
+margin-top: 30px;
+}
+table.tblLogoutMsg
+{
+margin-top: 30px;
+}
+td.cellMessageBack
+{
+background: #7D7D7D;
+}
+td.cellMessageBack_tl, td.cellMessageBack_l, td.cellMessageBack_bl
+{
+width: 15px;
+}
+td.cellMessageBack_tl, td.cellMessageBack_tr
+{
+height: 15px;
+}
+td.cellMessageBack_bl, td.cellMessageBack_br
+{
+height: 15px;
+}
+td.cellImage
+{
+vertical-align: top;
+width: 33px;
+}
+td.cellMessageBack_c
+{
+width: 15px;
+}
+td.cellMessage
+{
+color: #FFFFFF;
+font-size: 14px;
+height: auto;
+vertical-align: top;
+width: 296px;
+}
+td.cellMessage > span {
+color: #FFFFFF;
+display: inline-block;
+font-size: 14px;
+height: auto;
+width: inherit;
+overflow: hidden;
+position: absolute;
+vertical-align: top;
+word-wrap: break-word;
+}
+td.cellMessageBack_tr, td.cellMessageBack_r, td.cellMessageBack_br
+{
+width: 36px;
+}
+.tblLoginErr .arrowL {
+top: 50%;
+position: absolute;
+}
+.tblLoginErr .lblLoginErrMsg {
+display: block;
+background: none repeat scroll 0 0 #EBEBEB;
+color: #AF0000;
+margin-left: 18px;
+min-height: 30px;
+padding: 15px 20px;
+width: 180px;
+}
+.entrer {
+color: #FFFFFF;
+font-size: 18px;
+margin-bottom: 40px;
+margin-top: 12px;
+width: 395px;
+}
+input.text, input.password {
+width: 100%;
+height: 24px;
+line-height: 24px;
+padding: 0 8px;
+background: #ffffff;
+color: #303030;
+}
+.buttover{float: right;margin-top: 20px;}
+button {
+background: none repeat scroll 0 0 #70A0D4;
+border: medium none;
+width: 120px;
+height: 26px;
+margin-top: 20px;
+color: #FFF;
+font-weight: bold;
+font-size: 14px;
+}
+.footer {
+left: 50%;
+margin: 0 auto 0 -235px;
+position: relative;
+}
+.lblAuthRequired {
+color: #FFFFFF;
+font-size: 16px;
+margin: 0;
+padding-bottom: 38px;
+}
+.lblUserName, .lblPword, .lblLang {
+height: 23px;
+line-height: 23px;
+}
+.enterMenu, .loginTabmenu, .loginTabmenuText {
+left: 50%;
+margin: 0 auto 0 -197px;
+position: relative;
+width: 395px;
+}
+.loginTabmenu {
+background: #000000;
+height: 167px;
+padding: 28px 30px 30px;
+width: 335px;
+opacity: .3;
+filter: alpha(opacity=3);
+-ms-filter: "alpha(opacity=3)";
+-khtml-opacity: .3;
+-moz-opacity: .3;
+}
+.loginTabmenuText {
+height: 167px;
+padding: 28px 30px 30px;
+top: -224px;
+width: 335px;
+}
+.upperHeight { height: 190px; }
+.upperHeight, x:-moz-any-link { height: 176px; }
+.tdLabel {
+width: 100px;
+}
+.lblFooter1 {
+font-size: 9px;
+}
+.overr {
+vertical-align: middle;
+width: 104px;
+height: 24px;
+overflow: hidden;
+background: url(../images/dropdownarrows.gif) no-repeat right #fff;
+border: 1px solid #a5a5a5;
+display: inline-block;
+margin-right: 10px;
+}
+select
+{
+background: transparent;
+width: 104px;
+padding: 3px;
+font-size: 13px;
+line-height: 1;
+border: 0;
+border-radius: 0;
+height: 24px;
+-webkit-appearance: none;
+-o-appearance:none;
+-khtml-appearance:none;
+appearance:none;
+-moz-appearance: none;
+text-indent: 0.01px;
+text-overflow: '';
+}
+@-moz-document url-prefix() {
+select {
+width: 122px;
+}
+}
+input[type=checkbox] {
+display:none;
+}
+input[type=checkbox] + label {
+background: url(../images/checkbox_button.png) no-repeat scroll 0 0 / 16px 16px transparent;
+height: 16px;
+width: 16px;
+display:inline-block;
+padding: 0;
+}
+input[type=checkbox]:checked + label {
+background: url(../images/checkbox_button_on.png) no-repeat scroll 0 0 / 16px 16px transparent;
+height: 16px;
+width: 16px;
+display:inline-block;
+padding: 0;
+}
+input[type=radio] {
+display:none;
+}
+input[type=radio] + label {
+background: url(../images/radio_button.png) no-repeat scroll 0 0 / 16px 16px transparent;
+height: 16px;
+width: 16px;
+display:inline-block;
+padding: 0;
+}
+input[type=radio]:checked + label {
+background: url(../images/radio_button_on.png) no-repeat scroll 0 0 / 16px 16px transparent;
+height: 16px;
+width: 16px;
+display:inline-block;
+padding: 0;
+}
+.Traceroute .tblName
+{
+font-weight:bold;
+}
+#tblMain
+{
+background: #f9f9f9;
+}
+.qos_policyClassMaps_m#tblMain {
+background:none;
+}
+#tblMain tr[id^="row_"] > td:not(:first-child),
+.tblMain tr[id^="row_"] > td:not(:first-child),
+#tblRepeatedPortConfig tr[id^="row_"] > td:not(:first-child),
+#oLLDPMedPrtSetDet tr[id^="row_"] > td:not(:first-child),
+#oLLDPMedNWPol tr[id$="_oLLDPMedNWPol"] > td:not(:first-child) {
+border-left: 1px solid #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+#Table1 > tbody > tr:not(.titleLine) > td:first-child,
+.Table1 > tbody > tr:not(.titleLine) > td:first-child,
+.dataTable > tbody > tr:not(.titleLine) > td:first-child,
+#Filter > tbody > tr:not(.titleLine) > td:first-child,
+.Filter > tbody > tr:not(.titleLine) > td:first-child {
+padding-left: 10px;
+padding-right: 2px;
+}
+.bridgInterfaceLagMembershipM .dataTable > tbody > tr
+{
+text-align: center;
+}
+#Table1 > tbody > tr:not(.titleLine) > td,
+#Filter > tbody > tr:not(.titleLine) > td,
+.Filter > tbody > tr:not(.titleLine) > td
+{
+padding-bottom: 13px;
+}
+body.security_network_stormControl_e #queryTable #tr_rdoBroadModeUnkUniMultiBroad_1,
+body.security_network_stormControl_e #queryTable #tr_rdoBroadModeMultiBroad_7,
+body.security_network_stormControl_e #queryTable #tr_rdoBroadModeBroadOnly_13 {
+height:25px;
+}
+#Table1 > tbody > tr:not(.titleLine) > td:last-child,
+.dataTable > tbody > tr:not(.titleLine) > td:last-child,
+#Filter > tbody > tr:not(.titleLine) > td:last-child,
+.Filter > tbody > tr:not(.titleLine) > td:last-child {
+padding-right: 13px;
+}
+#tblEtherlike th,
+#tblEtherlike td
+{
+font-size: 12px;
+}
+#tblEtherlike th {
+font-weight: bold;
+}
+#Filter,
+.Filter
+{
+background: #F9F9F9;
+}
+#trFilter th
+{
+background: #ebebeb;
+}
+#tblEtherlike #lblCaption span
+{
+font-weight: bold;
+}
+tfoot {
+height: 50px;
+background: #fff;
+}
+tfoot > tr > td {
+vertical-align: middle;
+text-align: right;
+}
+.empty {
+background: #FFFFFF;
+height: 18px;
+}
+#tdRefreshRate, #tdSelectRefresh {
+padding-top: 13px;
+}
+tfoot > tr > td {
+height: 50px;
+text-align: right;
+vertical-align: middle;
+}
+h2.subTitle {
+background: #FFFFFF;
+color: #A5A5A5;
+text-transform: uppercase;
+font-size: 16px;
+margin-bottom: 0;
+padding-bottom: 6px;
+padding-top: 14px;
+font-weight: normal;
+width: 500%;
+margin-top: 0;
+}
+.configurationFileCopy h2.subTitle, .setHostSelect h2.subTitle, .configurationLogBackupDownload h2.subTitle {
+background: #FFFFFF;
+color: #A5A5A5;
+text-transform: uppercase;
+font-size: 18px;
+margin-bottom: 0;
+padding-bottom: 6px;
+padding-top: 10px;
+font-weight: normal;
+width: 100%;
+}
+.setHostSelect .titleLine #lblFileTransferStatus {padding-top:10px;margin-top:0px;}
+h3
+{
+color: #303030;
+font-size: 18px;
+font-weight: bold;
+height: 18px;
+margin: 7px 0 0;
+}
+h4 {
+margin: 0;
+}
+.dialogBox h4.grand {
+position: relative;
+width: 840px;
+line-height: 40px;
+background: #7D7D7D;
+color: #FFFFFF;
+text-align: center;
+font-size: 18px;
+margin-bottom: 15px;
+}
+#addBody.AddMACMulticastGroup h4.grand {
+width: 600px !important;
+}
+.dialogBox h4 {
+line-height: 22px;
+color: #303030;
+font-size: 13px;
+font-weight: bold;
+}
+body.dialogBox
+{
+background-color: #f9f9f9;
+margin: 0;
+}
+.disabled {
+color: #303030;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)";
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+-moz-opacity: 0.4;
+-khtml-opacity: 0.4;
+opacity: 0.4;
+}
+.dialogBoxBody label:not(.disabled) > span {
+color: #303030;
+}
+.PBGroupsToVlan_aTR > td {
+padding-top: 0px !important;
+}
+.dialogBoxBody > table > tbody > tr > td:not([colspan="4"]) {
+padding-top: 15px;
+}
+.dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child {
+padding-left: 18px;
+}
+.dialogBox [id$="_separator"] {
+padding-right: 10px;
+}
+.dialogBox #lblLLInterface_separator, .dialogBox #lblMinSeverity_separator
+{
+margin-right: -5px;
+}
+.dialogBox .contextMessageRight {
+left: -2px;
+position: relative;
+}
+.dialogBox img.hr {
+width: 800px;
+}
+.dialogBox img.hrMACADD {
+width: 560px;
+height:1px !important;
+}
+label.left, label.leftNoColon {margin-right: 8px;}
+label.topSingle {margin-bottom: 5px;}
+label.topMulti {margin-bottom:10px;}
+label.topSingle, label.topMulti {display: block;}
+.dialogBox table.dialogButtons {
+margin-left: 20px;
+}
+.dialogBox table.dialogButtons table {
+margin-right: 20px !important;
+}
+.dialogBox table.dialogButtons > tbody > table > tr > td {
+padding: 0 !important;
+}
+.dialogBox #lblEUI_separator {
+padding-right: 0px;
+}
+table.formButtons a {
+line-height: 20px;
+}
+table.formButtons tbody td td, table.dialogButtons tbody td td
+{
+padding: 0px;
+}
+td.rightArrow {
+color: #AF0000;
+padding-left: 8px;
+}
+.contextMessageRight label {
+padding-left: 2px;
+color: #af0000;
+}
+.dialogBox .left > img {
+width: 0;
+}
+#lblHintUdpPort {
+margin-left: 8px;
+color: #7d7d7d;
+filter: alpha(opacity=60);
+opacity: 0.6;
+}
+.dialogBox td.hrBottom {
+padding: 15px 20px 3px;
+}
+.dialogBox textarea {
+resize: none;
+}
+#txtVID {
+width: 80px;
+}
+caption {
+padding: 10px 0 0 10px;
+}
+#lblFilter_Interface {
+padding-right: 10px;
+}
+.fixLabel td > input:first-child + label {
+margin-right: 10px;
+position: relative;
+}
+.fixLabel td.right label {
+margin-right: 6px;
+position: relative;
+}
+.dialogBox #headTable1 {
+table-layout: fixed;
+width: 840px;
+}
+.dialogBox #headTable1 label[for="slctIPv6Interfaces"] {
+display: inline-block;
+margin-top: 9px;
+}
+.dialogBox .firstCol {
+padding-right: 7px;
+width: 155px;
+}
+.dialogBox .secCol {
+width: 110px;
+}
+.dialogBox .thirdCol {
+width: 100px;
+}
+.dialogBox .fourthCol {
+width: 65px;
+}
+.dialogBox .lastCol {
+width: auto;
+}
+#lblHostIP, #lblHostName, #lblIpFormatV6, #lblIpFormatV4, #lblGlobal, #lblLinkLocal,
+#lblRdoTypeTrap, #lblRdoTypeInf, [id^="lblRdoVer"], #lblCbFilter, #lblRdoSecAuth, #lblRdoSecNoAuth, #lblRdoSecPrivacy,
+#lblNotifType1, #lblNotifType2 {
+margin-left: 8px;
+vertical-align: top;
+}
+table.dataTable > tbody > tr > td:first-child {
+width: 1px;
+line-height: 24px;
+padding-right: 8px !important;
+}
+body:not(.loginPage) h3#pageHeader {
+color: #303030;
+font-size: 18px;
+font-weight: bold;
+height: 18px;
+margin: 7px 0 0;
+}
+.noTop {
+margin-top: 0!important;
+padding-top: 0!important;
+}
+#mainBody {
+width: 700px;
+}
+#mainBody tr.selected td {
+color: #fff;
+}
+body:not(.loginPage) #Table1, .setHostSelect #processStatusTable {
+width: 700px;
+background: #F9F9F9;
+overflow: hidden;
+float: left;
+}
+td.formBody .titleLine td {
+padding-left: 0;
+}
+#srcFileName {
+padding: 0;
+}
+#tblBody {
+border: none;
+border-spacing: 0;
+}
+.formBody h4 {
+font-size: 13px;
+font-weight: bold;
+margin: 0px;
+padding: 0px 0px 15px 0px;
+}
+.formBody h4.titleLbl {
+height: 22px;
+line-height: 24px;
+margin: 0 0 -12px;
+padding: 0 10px 0;
+}
+table tr#trHeader th,
+table.dataTable tr.trHeaderClass th {
+font-family: Arial;
+font-size: 12px;
+font-weight: bold;
+line-height: 20px;
+text-align: left;
+}
+table tr#trHeader th:nth-of-type(1),
+table.dataTable tr.trHeaderClass th:nth-of-type(1) {
+border: none;
+}
+#gwBody #xmlresult .formBody, #tblTop .formBody {
+background: #f9f9f9;
+padding: 15px 0 15px 20px;
+}
+#tblMain table:not(#tblInterface) caption {
+padding: 10px 0 0 10px;
+}
+#protocolBasedGroupsTable #lblTblCaption,
+#tblMain caption #lblTblName,
+#lblCaption[class="tblName"] {
+font-weight: bold;
+}
+#tblMain #PolicyDetailTable caption #lblTblName {
+float:left;
+}
+.selected #tblInterface td {
+color: #fff;
+}
+#tblInterface td {
+font-family: Arial;
+font-size: 12px;
+color: #303030;
+height: 24px;
+}
+#tblInterface > tbody > tr > td:first-child {
+width: 1px;
+padding-right: 8px;
+}
+#tblInterface tbody tr td#tdFilterSelect {
+padding: 10px 0 10px 20px;
+}
+#tdRefreshRate {
+padding: 15px 0 0 20px;
+width: 1px;
+padding-left: 20px !important;
+}
+#popUpMainDiv .grand {
+position: relative;
+width: 840px;
+line-height: 40px;
+background: #7D7D7D;
+color: #FFFFFF;
+text-align: center;
+font-size: 18px;
+padding: 0;
+margin-bottom: 15px;
+font-weight: bold;
+}
+#popUpMainDiv #lblPopupHeader,
+#popUpMainDiv #tdLblHeader {
+padding: 0 !important;
+}
+#popUpMainDiv #lblPopupMessage {
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 20px;
+}
+#popUpMainDiv #lblPopupMessage .pageMessage {
+margin-bottom: 0;
+}
+#popUpMainDiv #lblPopupMessage .pageMessage table tr:first-child {
+width: 20px;
+padding-bottom: 10px
+}
+#popUpMainDiv #Table1 {
+width: 100%;
+}
+#popUpMainDiv #xmlresult {
+padding: 0;
+}
+#popUpMainDiv #xmlresult .dialogBoxBody #tdBtnGo {
+padding-top: 15px
+}
+#popUpMainDiv #xmlresult .dialogButtons {
+margin-left: 20px;
+}
+#popUpMainDiv h4.titleLbl {
+height: 22px;
+line-height: 24px;
+margin: 0 0 -15px;
+padding: 0;
+font-weight: bold;
+}
+#popUpMainDiv #xmlresult .dialogBoxBody #tblGateway #txtAddr,
+#popUpMainDiv #xmlresult .dialogBoxBody #tblIPv6ACE #txtSourceAddress,
+#popUpMainDiv #xmlresult .dialogBoxBody #tblIPv6ACE #txtDestinationAddress,
+#popUpMainDiv #xmlresult .dialogBoxBody #tblIPv6BasedACL #txtAddr,
+#popUpMainDiv #xmlresult .dialogBoxBody #tblIPv6BasedACL #txtSourceAddress,
+#popUpMainDiv #xmlresult .dialogBoxBody #tblIPv6BasedACL #txtDestinationAddress {
+width:200px;
+}
+#xmlresult table.pageMessage {
+margin-bottom: 0;
+}
+#xmlresult #Table1 {
+width: 100%;
+padding-top: 0;
+}
+#xmlresult #Table2 {
+width: 700px;
+background: #F9F9F9;
+overflow: hidden;
+}
+#xmlresult #tblMain {
+background: #f9f9f9;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#xmlresult .formButtons {
+margin-right: 20px;
+}
+#xmlresult #Table1 > tbody > tr > td:first-child:not(:last-child) {
+width: 1px;
+}
+#xmlresult #Table1 > tbody > tr > td:last-child:not(:first-child) {
+width: 100%;
+}
+#gwbody .pageMessage {
+margin-bottom: 0;
+}
+#gwbody #RTMulticastGroup tbody tr td:first-child,
+#gwbody #RTIPMulticastGroup tbody tr td:first-child {
+padding-right: 7px;
+}
+#gwbody #containerRTIGMPMLDSnoopGroupList,
+#gwbody #containeroNeighborInformation {
+background: #f9f9f9;
+padding: 0 10px 10px;
+}
+#xmlresult table#tblGreenEthForm {
+display: table;
+width: 100%;
+}
+#xmlresult #tblGreenEthForm #Table1 {
+margin-top: 0;
+}
+#xmlresult #tblGreenEthForm #Table2 {
+width: 100%;
+}
+#xmlresult #tblGreenEthForm #Table1 > tbody > tr:not(.titleLine) > td {
+padding-bottom: 15px;
+}
+#xmlresult #tblGreenEthForm #Table1 td#tdLblEnergyDetectMode,
+#xmlresult #tblGreenEthForm #Table1 td#tbLblShortReach,
+#xmlresult #tblGreenEthForm #Table1 td#tdLblEEE,
+#xmlresult #tblGreenEthForm #Table1 td#tdLblLED {
+padding-left: 20px;
+}
+#xmlresult #Table2 tbody tr:nth-of-type(2) td {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+#xmlresult #Table2 tbody td:nth-of-type(2) {
+width: 160px;
+}
+#xmlresult .dataTable caption span.tblName {
+font-weight: bold;
+}
+#xmlresult #tblMain #oRTGEP tr[id^="r"] > td,
+#xmlresult #containeroIPv6BasedACL #oIPv6BasedACL tr[id^="r"] > td,
+#xmlresult #containeroNeighborInformation #oNeighborInformation tr[id^="r"] > td,
+#oLLDPMEDPrtSet tbody tr > td {
+border-left: 1px solid #ffffff;
+padding-left: 8px;
+padding-right: 8px;
+font-family: Arial;
+font-size: 12px;
+height: 24px;
+}
+#oLLDPMEDPrtSet #lblCaption_lblPaging {display:none;}
+#oLLDPMEDPrtSet tbody tr > td,
+#oLLDPMedNWPol > tbody tr > td {
+border-left: 1px solid #ffffff;
+font-family: Arial;
+font-size: 12px;
+height: 24px;
+}
+#oLLDPMEDPrtSet #tdBtnEdit, #oLLDPMEDPrtSet #btnEdit_tdNode{padding-left: 0px;padding-right: 0px;}
+#editLLDPortSet #lblAvailTlv, #editLLDPortSet #lblAvailPol {margin-left: 0px !important;}
+#editLLDPortSet #txtLocCoord, #editLLDPortSet #txtLocCivic, #editLLDPortSet #txtLocECSELIN {width: 182px;}
+#editLLDPortSet .hr {width:98%;}
+#editLLDPortSet #xmlresult .hint {padding-left: 0px;}
+#editLLDPortSet #lblAvailTlv_separator, #editLLDPortSet #lblSlctdTlv_separator,
+#editLLDPortSet #lblAvailPol_separator, #editLLDPortSet #lblSlctdPol_separator {
+margin-left: 0px !important;
+}
+#editLLDPortSet + .dialogButtons #tdApply {padding-right:10px}
+#xmlresult #tblMain #oRTGEP #btnEdit {
+width: 100px;
+display: block;
+line-height: 24px;
+}
+#xmlresult #containeroIPv6BasedACL #oIPv6BasedACL tr.filterRow div.overr,
+#xmlresult #containeroNeighborInformation #oNeighborInformation tr.filterRow div.overr {
+margin-right: 0;
+padding-left: 0;
+}
+#xmlresult .dialogBoxBody #tdLblInterface{
+padding-left: 20px !important;
+}
+#tblGreenEthForm #chkEnableEnergDetMode + label,
+#tblGreenEthForm #chkEnableShortReach + label,
+#tblGreenEthForm #chkEEE + label,
+#tblGreenEthForm #chkLED + label {
+padding-right: 10px !important;
+}
+#tbLblCurrPowerConsump {
+width: 85px;
+padding-left: 20px;
+}
+#tbLblCumulativeEnergSaved {
+width: 155px;
+}
+#tdCumulEnergSaved {
+padding: 0 !important;
+width: 1px;
+}
+.interface {
+padding:10px 0px 10px 20px;
+}
+#txtVoiceId{
+width: 110px;
+}
+.bridgInterfaceLagMembershipM .tblName {font-weight:bold;}
+.bridgInterfaceLagMembershipM .dataTable caption {padding:10px 0px 0px 10px;}
+.qos_glob_general_bandwidth_m_body #tdLbl_lblFilter_EqualsTo,
+.qos_glob_general_bandwidth_m_body #tdLbl_lblFilter,
+.qos_glob_general_bandwidth_m_body #lblPercentCaption,
+.qos_glob_general_bandwidth_m_body #tdCopySettings,
+.qos_glob_general_bandwidth_m_body #lblHdrRowNum,
+.qos_glob_general_bandwidth_m_body #lblIngressRateLimitCaption,
+.qos_glob_general_bandwidth_m_body #lblEgressShapingCaption,
+.qos_glob_general_bandwidth_m_body #sPagination
+{display:none !important;visibility:hidden !important;}
+.qos_glob_general_bandwidth_m_body .table4bandwidth {padding:10px 0px 10px 20px !important;}
+.qos_glob_general_bandwidth_m_body #lblFilter_Interface {padding-right:0px;}
+.qos_glob_general_bandwidth_m_body #lblIngressStatusCaption,
+.qos_glob_general_bandwidth_m_body #lblRateLimitCaption,
+.qos_glob_general_bandwidth_m_body #lblRateLimitCBSCaption,
+.qos_glob_general_bandwidth_m_body #lblEgressStatusCaption,
+.qos_glob_general_bandwidth_m_body #lblCirCaption,
+.qos_glob_general_bandwidth_m_body #lblCbsCaption
+{font-weight:bold !important;}
+SnoopingGroups_paging_class {display:none;}
+table#oNeighborInformation,
+.SnoopingGroups_IGMP_IP_Group_Addresses {
+border: 1px solid #e2e2e2;
+}
+.IGMPsnooping_popup_xml tr.trhr td,
+.MLDSnooping_popup_xml tr.trhr td {line-height:1px}
+.IGMPsnooping_popup_xml .editPort #tdLblrdoV2.right {
+width: 0px;
+}
+.IGMPsnooping_popup_xml #tdLblImmediateLeave #lblImmediateLeave_separator {margin-left:0px !important;}
+.IGMPsnooping_popup_xml #tdLblImmediateLeave {padding-left:0px !important;margin-left:0px !important;}
+.editPort #popUpMainDiv .IGMPsnooping_popup_xml h4.titleLbl,
+.editPort #popUpMainDiv .MLDSnooping_popup_xml h4.titleLbl {margin:0 !important;}
+.displayHideNone,
+.right.hAutoSourceIPIGMPSMB
+{
+display:none !important;
+visibility:hidden !important;
+}
+#chkIGMPStatus
+{
+padding-top:15px;
+}
+tr[id$="RTMulticastGroup"] td:not(:last-child) {border-right: 1px solid #FFF;}
+tr[id$="RTIPMulticastGroup"] td:not(:last-child) {border-right: 1px solid #FFF;}
+.AddBindingDatabaseEntryBody .grand
+{
+width:768px !important;
+}
+.AddBindingDatabaseEntryBody .hrBDE {width:728px !important;height:1px !important;}
+.AddBindingDatabaseEntryBody {width:768px !important;}
+.AddBindingDatabaseEntryBody #Table1 .dialogBoxBody
+{
+margin:0px !important;
+padding:0px !important;
+}
+.AddBindingDatabaseEntryBody .dialogBoxBody > table > tbody > tr > td:not([colspan="3"]) {
+padding-top: 15px;
+}
+.AddBindingDatabaseEntryBody .dialogBoxBody > table > tbody > tr > td[colspan="3"] {
+padding-top:0px !important;
+}
+.AddBindingDatabaseEntryBody label {margin-right:10px;}
+.AddBindingDatabaseEntryBody .over {margin-left:10px;}
+.AddBindingDatabaseEntryBody #txtTime {margin:0px 10px 0px 10px !important;}
+.AddBindingDatabaseEntryBody body.dialogBox table.pageMessage,
+.AddBindingDatabaseEntryBody .dialogBoxBody #Table2 .pageMessage {width:700px !important;}
+.AddBindingDatabaseEntryBody #Table7 table.contextMessageTop tbody tr td:first-child {width: 100% !important}
+.AddBindingDatabaseEntryBody #lbl_BDE_BindingSettings {padding-top:10px}
+.AddBindingDatabaseEntryBody .tdPortSelect,
+.mappingGroupsToVlan_a #tdLblLag, .mappingGroupsToVlan_a #tdLblPort
+{padding-right:10px}
+.AddBindingDatabaseEntryBody #tblType td.right,
+.AddBindingDatabaseEntryBody #tblTime #Table6 td.right {width:130px}
+.mappingGroupsToVlan_a #FirstUniqUnitPortsLagsHTML .tdPortSelect{padding-right:10px;}
+.settingPage .overr {
+vertical-align: middle;
+width: 84px;
+height: 24px;
+overflow: hidden;
+background: url('../images/dropdownarrows.gif') no-repeat right #fff;
+border: 1px solid #a5a5a5;
+display: inline-block;
+margin-right: 10px;
+}
+.settingPage select {
+background: transparent;
+width: 85px;
+padding: 3px;
+font-size: 13px;
+line-height: 1;
+border: 0;
+border-radius: 0;
+height: 24px;
+-webkit-appearance: none;
+}
+@-moz-document url-prefix() {
+.settingPage select {
+width: 123px;
+}
+}
+.settingPage #lblVLANSettings {
+margin-top: 5px;
+}
+.settingPage {
+margin-left: 0px;
+}
+.settingPage #mainBody {
+width: 100%;
+}
+.settingPage h3#pageHeader {
+margin: 8px 0 0 0;
+padding-bottom: 10px;
+}
+.settingPage #tdLblFwdV4.ctrlSpacing, .settingPage #tdLblFwdV4.ctrlSpacing + td {
+padding-bottom: 0;
+}
+.settingPage .dialogBox td > input:first-child + label {
+padding-right: 10px;
+padding-top: 3px;
+}
+.settingPage #Table1 {
+width: 100%;
+border-collapse: separate;
+margin-top: 15px;
+}
+.settingPage #Table1 td.lastTD {
+padding-bottom: 5px;
+}
+.settingPage #systemIpArpTable tr#trHeader th.lastTh img {
+width: 60px;
+height: 1px;
+}
+.settingPage #Table1 label.left {
+padding-left: 10px;
+}
+.settingPage #xmlresult .formBody {
+padding-right: 20px;
+}
+.settingPage .formButtons, .settingPage .dialogButtons {
+margin-right: 0;
+}
+.settingPage .formButtons table {
+margin: 0;
+}
+.settingPage .bLeft {
+float: left !important;
+}
+.settingPage #txtTimout {
+width: 120px;
+}
+.settingPage #tblMain802Properties #Table1 table td {
+vertical-align: top;
+}
+.settingPage #tblMain802Properties tr#tr_rdoRadiusNone_1 td,
+.settingPage #tblMain802Properties tr#tr_rdoRadius_7 td {
+padding-bottom: 10px;
+}
+#mainBody tr#trlblSNMP > td,
+#mainBody tr#trlblSNMPNoti td#tdlblSNMPNoti,
+#mainBody tr#trlblSNMPNoti table td,
+.settingPage #tdTcamUsage table td,
+.settingPage #tdOtherTcamUsage table td {
+padding-bottom: 15px;
+}
+.settingPage #tdTcamUsage,
+.settingPage #tdOtherTcamUsage {
+padding-bottom: 0;
+}
+.settingPage span#lblRetry,
+.settingPage td#tdTxtIPv4UserDef {
+padding: 0 10px;
+}
+.settingPage #txtFormServerAddress, .settingPage #txtFormServerName {
+width: 185px;
+}
+.systemIpArpTable_tblMain > tbody > tr > td,
+.policyBindTable_tblMain > tbody > tr > td {
+padding: 0 10px 10px 10px;
+}
+#tblMain #policyBindTable tr.filterRow {
+height: 38px;
+}
+.systemIpArpTable_thead,
+.policyBindTable_thead {
+border-left: 1px solid #e2e2e2 !important;
+border-top: 1px solid #e2e2e2 !important;
+border-right: 1px solid #e2e2e2 !important;
+border-bottom: none;
+}
+#policyBindTable .policyBindTable_left {
+border-left: 1px solid #e2e2e2 !important;
+}
+#policyBindTable .policyBindTable_right {
+border-right: 1px solid #e2e2e2 !important;
+}
+.systemIpArpTable_thead #tdFilterSelect {
+padding-left: 0 !important;
+}
+.systemIpArpTable_thead #lblFilterInterface,
+.policyBindTable_thead #thFilter {
+padding: 10px !important;
+}
+.systemIpArpTable_thead tr#trFilter tr.filterRow > td {
+padding-right: 0 !important;
+}
+.systemIpArpTable_thead #tdBtnGo #btnGo,
+.policyBindTable_thead #tdBtnGo #btnGo,
+.policyBindTable_thead #tdBtnClear #btnClear {
+width: 100px !important;
+}
+#systemIpArpTable_thead table#Table2 td div.overr,
+#systemIpArpTable_thead table#Table2 td select {
+width: 108px;
+}
+@-moz-document url-prefix() {
+#systemIpArpTable_thead table#Table2 td select {
+width: 126px;
+}
+}
+.systemIpArpTable_tbody,
+.policyBindTable_tbody {
+border-left: 1px solid #e2e2e2;
+border-right: 1px solid #e2e2e2;
+}
+.policyBindTable_tbody {
+border-bottom: 1px solid #e2e2e2 !important;
+}
+.systemIpArpTable_tfoot {
+border-left: 1px solid #e2e2e2 !important;
+border-right: 1px solid #e2e2e2 !important;
+border-bottom: 1px solid #e2e2e2 !important;
+border-top: none;
+}
+.systemIpArpTable_tfoot table.formButtons td#tdFormButtons {
+padding-left: 10px !important;
+}
+.QueuesStatistics .right {
+width:1px !important;
+}
+.setHostSelect .right {
+width: 80px;
+}
+.setHostSelect input.text {
+height: 26px;
+}
+.setHostSelect #Table1, .setHostSelect #processStatusTable {
+margin-top: 0;
+}
+.setHostSelect #Table1 td td, .setHostSelect #processStatusTable td {
+padding-bottom: 15px
+}
+.setHostSelect #Table1 #trFileNameSelect td,
+.setHostSelect #Table1 #tdRdoFileType tr:last-child td,
+.setHostSelect #Table1 td td td{
+padding-bottom: 0px
+}
+.setHostSelect #tdDestFileType td,
+.setHostSelect #tdRdoFileType td,
+.setHostSelect #trFileNameSelect table td {
+padding-bottom: 15px!important;
+}
+.setHostSelect .tftpServ #lblHostIP,
+.setHostSelect .ipVer #lblIpFormatV6,
+.setHostSelect .IPv6AddrType #lblGlobal{
+display: inline-block;
+margin-left: 0;
+width: 76px;
+}
+.setHostSelect .IPv6AddrType #lblLinkLocal {
+margin-left: 0px!important;
+width: 108px;
+}
+@-moz-document url-prefix() {
+.setHostSelect .IPv6AddrType #lblLinkLocal {
+width: 126px;
+}
+}
+.setHostSelect #txtSourceFile,
+.setHostSelect #txtDestFileName,
+.setHostSelect #txtTftpServerAddress,
+.setHostSelect #txtTftpServerName {
+width: 185px;
+}
+.setHostSelect #Table1 td > input:first-child + label {
+padding-right: 10px;
+padding-top: 1px;
+}
+.setHostSelect #rbVer6Btn2 {
+margin-right: 0;
+}
+.setHostSelect #lblHostIP,
+.setHostSelect #lblHostName,
+.setHostSelect #lblIpFormatV4,
+.setHostSelect #lblIpFormatV6,
+.setHostSelect #lblGlobal,
+.setHostSelect #lblLinkLocal {
+display: inline-block;
+margin-left: 0px!important;
+width: 80px;
+}
+.setHostSelect #rbHostIP + label ,
+.setHostSelect #rbHostName + label ,
+.setHostSelect #rbVer4 + label ,
+.setHostSelect #rbVer6 + label ,
+.setHostSelect #rbGlobal + label ,
+.setHostSelect #rbLL + label {
+height: 20px;
+vertical-align:middle;
+}
+.setHostSelect div#fileBrowseWrapper {
+border:none;
+overflow:hidden;
+width: 100px;
+height: 26px;
+background-color: #70a0d4;
+}
+.setHostSelect div#fileBrowseWrapper:hover {
+background-color: #64798f;
+}
+.setHostSelect div#fileBrowseWrapper:active {
+background-color: #303030;
+}
+.setHostSelect div#fileBrowseWrapper input {
+opacity:0;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.systemInformation h3#pageHeader {
+padding-bottom: 15px !important;
+}
+.systemInformation #Table1 {
+padding-top: 0 !important;
+}
+.systemInformation #Table4 td {
+padding-bottom: 0px;
+}
+.systemInformation #Table4 table td,
+.systemInformation tr#trSysMode td {
+height: 13px !important;
+padding-bottom: 10px;
+}
+.systemInformation #Table1 td > input:first-child + label {
+padding-right: 10px;
+padding-top: 3px;
+}
+.systemInformation input#txtSysName {
+width: 200px;
+}
+.systemInformation #txtSysLocation, .systemInformation #txtSysContact {
+width: 530px;
+}
+.systemInformation #tdForMessage .contextMessageRight {
+position: relative;
+top: 4px;
+}
+.dhcpSnooping #Table1 {
+padding-top: 0 !important;
+}
+.dhcpSnooping #Table1 td > input:first-child + label {
+padding-right: 10px;
+padding-top: 3px;
+}
+.activeFirmwareImage #Table1 tbody tr >*:first-child{
+width: 10%!important;
+}
+.activeFirmwareImage #Table1 tbody tr >*:first-child + *{
+width: 10%!important;
+}
+.activeFirmwareImage #Table1 tbody tr >*:first-child + * + *{
+width: 10%!important;
+}
+.activeFirmwareImage #Table1 tbody tr >*:first-child + * + * + *{
+width: 0%!important;
+}
+.activeFirmwareImage #Table1 td.lastTD {
+padding-bottom: 15px;
+}
+.configurationFileCopy #Table1 {
+margin-top: 15px;
+}
+.configurationFileCopy #Table1 td {
+padding-bottom: 15px;
+}
+.configurationFileCopy #Table1 td.lastTD {
+padding-bottom: 8px;
+}
+.configurationFileCopy #Table1 tbody tr >*:first-child{
+width: 10%!important;
+}
+.configurationFileCopy #Table1 td > input:first-child + label {
+padding-right: 10px;
+}
+.configurationFileCopy #tdDestFileType {
+padding-bottom: 0!important;
+}
+.vlan #tblTop .formBody tbody tr:first-child td {
+padding-bottom: 15px;
+}
+.vlan .contextMessageRight td {
+padding-bottom: 0 !important;
+}
+#SystemSntpInterfaceSettingsTable .lastTh img,
+.vlan .lastTh img {
+width: 80px;
+height: 1px;
+}
+.vlan #lblVoiceVlan {
+padding-top: 0 !important;
+}
+.vlan input#chkLLDPMED + label,
+.vlan input#chkAutoVoice + label,
+.vlan input#chkRemark + label {
+margin-right: 10px;
+}
+.vlan td#tdChkRemark table td {
+padding-bottom: 0 !important;
+}
+.vlan td.formBody table.contextMessageTop td {
+text-align: left;
+}
+.vlan .formBody table.contextMessageTop td:first-child {
+padding-bottom: 0 !important;
+}
+.vlan .contextMessageTop,
+.editPort tr.forError #tblTraffic_error .contextMessageTop {
+width: 128px !important;
+}
+.vlanMemberships .rbTable{
+margin: 0 20px;
+}
+.vlanMemberships .rbTable td {
+line-height: 26px;
+width: 40px;
+}
+.vlanMemberships .rbTable td.lable {
+padding-right: 10px;
+}
+.vlanMemberships tr.filterRow table {
+margin: 0 20px;
+}
+.vlanMemberships tr.filterRow table .formButton table {
+width: 100px;
+}
+.vlanMemberships tr.filterRow tr.fLine td {
+padding-bottom: 10px;
+}
+.vlanMemberships .sortButton {
+background: #fff;
+}
+.vlanMemberships .sortButton td {
+padding-top: 6px;
+}
+.vlanMemberships #dnamicTBODY tr:last-child table tr:last-child td {
+padding-bottom: 10px;
+}
+.vlanMemberships .pageMessage {
+margin-bottom: 0;
+}
+.vlanMemberships .lastLine {
+margin-bottom: 5px !important;
+}
+.multicastProperty .pageMessage {
+margin-bottom: 15px !important;
+}
+.multicastProperty #Table1 td > input:first-child + label {
+padding-right: 9px;
+}
+.multicastProperty #Table1 #tableFwdV4 td,
+.multicastProperty #Table1 #tableFwdV6 td {
+padding-bottom: 15px;
+}
+.multicastProperty #RBTable_container table tr:not(:first-child) table.rbTable {
+margin-top: 15px;
+}
+.multicastProperty .rbTable td {
+padding: 0;
+text-align: left;
+line-height: 22px;
+width: 40px;
+}
+.systemTime .right,
+.spanningTree .right {
+width: 80px;
+}
+.systemTime #Table1 td > input:first-child + label,
+.spanningTree #Table1 td > input:first-child + label {
+padding-right: 10px;
+padding-top: 3px;
+}
+.dialogBoxBody #addAggregatePolicer input.text,
+.spanningTree input.text {
+width: 80px;
+}
+.spanningTree .top td {
+vertical-align: top;
+}
+.spanningTree .pageMessage {
+margin-bottom: 0;
+}
+.systemTime .formBody h4.titleLbl,
+.spanningTree .formBody h4.titleLbl {
+height: 22px;
+line-height: 24px;
+margin: 9px 0 -14px;
+padding: 0 10px;
+}
+.systemTime table tr.npb td,
+.spanningTree table tr.npb td {
+padding-bottom: 0 !important;
+}
+.systemTime #txtManipulatedMngDate,
+.systemTime #txtDtFromDate,
+.systemTime #txtDtToDate {
+width: 90px;
+}
+.systemTime #txtManipulatedMngTime,
+.systemTime #txtDtFromTime,
+.systemTime #txtDtToTime,
+.systemTime #txtTimeZoneAcronym {
+width: 50px;
+}
+.systemTime .overr {
+width: 60px;
+}
+.systemTime #slctDtFromRecDay,
+.systemTime #slctDtFromRecWeek,
+.systemTime #slctDtFromRecMonth,
+.systemTime #slctDtToRecDay,
+.systemTime #slctDtToRecWeek,
+.systemTime #slctDtToRecMonth {
+width: 61px;
+}
+@-moz-document url-prefix() {
+.systemTime #slctDtFromRecDay,
+.systemTime #slctDtFromRecWeek,
+.systemTime #slctDtFromRecMonth,
+.systemTime #slctDtToRecDay,
+.systemTime #slctDtToRecWeek,
+.systemTime #slctDtToRecMonth {
+width: 79px;
+}
+}
+.IGMPsnooping_popup_xml #slctQuerierIP {
+width: 130px;
+}
+@-moz-document url-prefix() {
+.IGMPsnooping_popup_xml #slctQuerierIP {
+width: 148px;
+}
+}
+.systemTime #txtDtToRecTime,
+.systemTime #txtDtFromRecTime,
+.systemTime #txtDtFromRecTime,
+.systemTime #txtOffset {
+width: 55px;
+}
+.systemTime #tr_rdoDLSUsa_1 .right {
+padding-right: 20px;
+}
+.systemTime tr#trDtFromRecDay td label,
+.systemTime tr#trDtToRecDay td label {
+padding-left: 0 !important;
+}
+.systemTime tr#trDtFromRecDay td label.left,
+.systemTime tr#trDtToRecDay td label.left {
+margin-right: 10px !important;
+}
+input + [for="rdoRapid"], input + [for="rdoLong"], input + [for="rdoFlooding"] {
+margin-left: 30px;
+}
+.dns #tblTop .formBody tr.fline td {
+height: 28px;
+vertical-align: top;
+}
+.dns #tblTop #lblDDNRange,
+.dns #tblTop .formBody tr.fline #lblDNSEnable {
+padding-left: 10px;
+}
+#forIPVersion table tr td:nth-of-type(3),
+#v6Cntrl_trAddrType table tr td:nth-of-type(3) {
+width: auto;
+}
+td#trLinkLocalInterface #lblLLInterface_separator {
+margin-left: 0 !important;
+}
+.poeFeatureCfg #Table1 td {
+padding: 0;
+margin: 0;
+height: 25px;
+}
+.poeFeatureCfg #Table1 tr td.formBody {
+padding: 10px 15px 10px 20px !important
+}
+.poeFeatureCfg #Table1 tr td.formBody label {
+font-family: Arial;
+font-size: 13px;
+color: #303030;
+}
+.poeFeatureCfg #tr_rdoPowerModePortLimit_1 td > label {
+margin-right: 7px;
+}
+.poeFeatureCfg #lblPowerModePortLimit {
+margin-right: 20px;
+}
+.poeFeatureCfg td.formBody label.hint {
+padding-left: 8px;
+}
+.ports #tblRepeatedPortConfig tbody td {
+font-family: Arial;
+font-size: 12px;
+color: #303030;
+height: 24px;
+padding-right: 8px;
+}
+.ports #tblRepeatedPortConfig tr.selected td {
+color: #fff;
+}
+.ports #Table2 {
+width: 100%;
+}
+#lblperPage,
+.ports .drawPagingFooter {
+display: none;
+}
+.ports input#chkJumbo + label,
+.ports input#chkSNMP + label {
+margin-right: 10px;
+}
+.dialogBox .dialogBoxBody table tbody tr td:first-child,
+.bridg_vlan_protocolGroup_a #tr_rdoEther_1 td,
+.bridg_vlan_protocolGroup_a #tr_rdoRfc_7 td,
+.mappingGroupsToVlan_a #FirstUniqUnitPortsLagsHTML
+{width:1px;}
+.dialogBox #xmlresult .hr {width:840px;}
+.bridgInterfaceLagMembershipM #tr_rdoMAC_IP_7 .radioSpacing,
+.bridgInterfaceLagMembershipM #tr_rdoMAC_1 .radioSpacing {width:25px;}
+.bridgInterfaceLagMembershipM #tr_rdoMAC_1,
+.bridg_vlan_protocolGroup_a #tr_rdoEther_1,
+.bridg_vlan_protocolGroup_a #tr_rdoRfc_7,
+.bridg_vlan_protocolGroup_a #tr_rdoLlc_13{float:left;}
+.bridg_vlan_protocolGroup_a #tr_rdoEther_1, .bridg_vlan_protocolGroup_a #tr_rdoRfc_7{padding-right:20px;}
+.bridgInterfaceLagMembershipM #tr_rdoMAC_IP_7 {float:right;}
+.bridgInterfaceLagMembershipM #tr_rdoMAC_1,
+.bridgInterfaceLagMembershipM #tr_rdoMAC_IP_7 {margin-left:14px;}
+.bridgInterfaceLagMembershipM .StringCellTbody tr td { padding-left:8px !important;padding-right:8px !important;padding-top:0;padding-bottom:0;border: 1px solid white; }
+#IGMPSnooping > thead tr td, #IGMPSnooping > tbody tr td
+{
+padding:0px 8px;
+border-left: 1px solid white;
+border-right: 1px solid white;
+}
+#IGMPSnooping th, #IGMPSnooping caption {font-weight:bold;}
+div#tblMain table#oRTGEP caption span#lblCaption_lblPaging,
+div#containerIGMPSnooping table#IGMPSnooping caption span#lblCaption_lblPaging {margin-right:0 !important;}
+.multicastProperty {width: 690px;}
+.dialogBox #Table1 #xmlresult {padding:0;}
+.dialogBox #tdLblVID {padding-left:20px;}
+.dialogBox td.dialogBoxBody {padding:0px;}
+.configurationLogBackupDownload_processStatusTable #processStatusTable tr:nth-of-type(1) td {
+padding-top: 15px;
+}
+.configurationLogBackupDownload_processStatusTable #processStatusTable td:nth-of-type(1) {
+padding-left: 20px;
+}
+.editPort {
+background: #F9F9F9;
+}
+.editPort #addAggregatePolicer table.contextMessageRight,
+.editPort .dialogBoxBody td td label span:not(#lblReactiveSuspPort):not(#lblReactiveSuspPort_separator):not(#lblFiltering):not(#lblFiltering_separator) {
+margin-left: 10px;
+}
+.editPort.editW768 #editPageForm #queryTable #lblTrapFrequency,
+.editPort .dialogBoxBody td td label span#lblReactiveSuspPort,
+.editPort .dialogBoxBody td td label span#lblReactiveSuspPort_separator {
+margin-left: 0;
+}
+.editPort .dialogBoxBody td label[for="macAclRadio"] #lblMac_separator,
+.editPort .dialogBoxBody td label[for="ipv4AclRadio"] #lblIPv4_separator,
+.editPort .dialogBoxBody td label[for="ipv6AclRadio"] #lblIPv6_separator,
+.editPort .dialogBoxBody td#tdDSCP #lblDSCP_separator,
+.editPort .dialogBoxBody #tblIPv6ACE #lblPriorHint,
+.editPort .dialogBoxBody #tblIPv6ACE #lbltxtSourcePrefixLengthHint,
+.editPort .dialogBoxBody #tblIPv6ACE #lbltxtDestinationPrefixLengthHint,
+.editPort .dialogBoxBody #tblIPv6ACE #lbltxtSingleSourcePortHint,
+.editPort .dialogBoxBody #tblIPv6ACE #lbltxtSingleDestPortHint,
+.editPort .dialogBoxBody #tblIPv6ACE #lblDSCPHint,
+.editPort .dialogBoxBody #tblIPv6ACE #lblIPPrecHint,
+.editPort .dialogBoxBody #tblIPv6BasedACL #lbltxtSourcePrefixLengthHint,
+.editPort .dialogBoxBody #tblIPv6BasedACL #lbltxtDestinationPrefixLengthHint,
+.editPort .dialogBoxBody #tblIPv6BasedACL #lbltxtSingleSourcePortHint,
+.editPort .dialogBoxBody #tblIPv6BasedACL #lbltxtSingleDestPortHint,
+.editPort .dialogBoxBody #tblIPv6BasedACL #lblDSCPHint,
+.editPort .dialogBoxBody #tblIPv6BasedACL #lblIPPrecHint,
+.editPort .dialogBoxBody td .rbTable td label span {
+margin-left: 0 !important;
+}
+.editPort table.pageMessage {
+margin-top: 0 !important;
+}
+.editPort table tr td h4.titleLbl.pt10 {
+padding-top: 10px;
+}
+.editPort table tr td h4.titleLbl.pt15 {
+padding-top: 15px;
+}
+.editPort #headTable1 {
+table-layout: auto;
+width: 960px;
+}
+.editPort h4.grand {
+width: 960px;
+}
+.editPort #Table7 td {
+width: 16px;
+}
+.editPort #Table7 td.radioSpacing {
+padding-top: 20px;
+}
+.editPort .portSelect td.right {
+width: auto;
+}
+.editPort #tblMACBaseACE #lblPriorityHint,
+.editPort #tblMACBaseACE td#tdTuple11,
+.editPort #tblMACBaseACE td#tdTuple10,
+.editPort #tblIpBaseACE #lblPriorityHint,
+.editPort #tblIpBaseACE td#tdTxtSrcIPAddr,
+.editPort #tblIpBaseACE td#tdTxtDestAddr,
+.editPort #tblIPv6ACE #lblPriorityHint,
+.editPort .portSelect td:nth-of-type(2),
+.editPort .portSelect td.tdPortSelect,
+.editPort .portSelect td:nth-of-type(5) {
+padding-right: 10px;
+}
+.fixLabel tr#trSysMode td table tr td.right,
+.formBody tr#trlblSNMPNoti td#tdlblSNMPNotiEnable,
+.editPort .right,
+.editPort #Table7 td.right {
+width: 130px;
+}
+.JoinVlan.editPort td.right,
+.JoinVlan.editPort td.right {
+width: 1px;
+}
+.editPort .rightLong .right {
+width: 150px;
+}
+.editPort .smallInput input {
+width: 120px;
+}
+.editPort img.hr {
+width: 920px;
+}
+.editPort .hrTD {
+padding-top: 15px !important;
+padding-left: 20px !important;
+}
+.editPort .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child {
+width: 130px;
+padding-left: 20px;
+}
+.editPort #tableOperationalStatus td {
+padding-right: 20px
+}
+.editPort #rdoFlooding + label,
+.editPort #tblAdd #lblNewPolicyName_separator,
+.editPort #lblType_separator,
+.editPort #lblEUI_separator,
+.editPort #lblInterface_separator,
+.editPort #lblAddress_separator,
+.editPort #lblPrefix_separator,
+.editPort #lblIpAddressType_separator,
+.editPort #lblMask_separator,
+.editPort #lblDesignatedCost,
+.editPort #lblDesignatedBridgeID,
+.editPort #lblDesignatedCost_separator,
+.editPort #lblDesignatedBridgeID_separator,
+.editPort #lblRadiusVlanAssign_separator,
+.editPort #lblAuthentication_separator,
+.editPort #lblLinkLocalInterface_separator,
+.editPort #lblEnableGuestVlan_separator,
+.editPort #lblTelephonyOUI_separator,
+.editPort #lblAutoConf_separator,
+.editPort #lblManage_separator,
+.editPort #lblPermitAny_separator,
+.editPort #lblQoSState,
+.editPort #sntpServer #lblServerIp_separator,
+.editPort #snmpNotReceiver #lblIPAddress_separator,
+.editPort #snmpNotReceiver #v6Cntrl_trAddrType #lblLLInterface,
+.editPort #snmpNotReceiver #v6Cntrl_trAddrType #lblLLInterface_separator,
+.editPort #snmpNotReceiver tr.trTop11 table td span#lblFilterName_separator,
+.editPort #portMirror #lblDstPort_separator,
+.editPort #portMirror #lblSrcInt_separator,
+.editPort #addAggregatePolicer #lblIngressCIR_separator,
+.editPort .dialogBoxBody td label[for="chkAuthMAC"] #lblAuthMAC_separator,
+.editPort #lblTrustedInterface_separator,
+.editPort.editArpVlan #lblListName_separator,
+.editPort.editAccessControl #lblA1_separator,
+#serverLogServer #lblServerIP_separator,
+#serverLogServer #lblLLInterface_separator,
+#tblVoiceOuiINT #lblFilter_Interface,
+.addMacBaceAcl #lblACLName_separator,
+.editPort #lblDot1PMask_separator,
+.editRadius #lblLLInterface_separator,
+.editPort #lblDefUsrPrior_separator,
+.editPort.editW640 .hideStatic #lblVLANName_separator,
+.editPort.editW640 #trVlanStatus #lblChkVlanStatus_separator,
+.editPort #td_lblAddr #lblAddr_separator,
+.editPort.editW840 #addPageForm #tdlblHost #lblHost_separator,
+.editPort.editW840 #addPageForm #tdtxtHostIp #lblHostIpAddress_separator,
+.editPort.editW840 #addPageForm #tdtxtHostName #lblHostNameAddress_separator,
+.editPort.editW640 #editPageForm #trlblIp #tdlblIp #lblIpAddress_separator,
+.editPort.editW768 #editPageForm #queryTable #lblTrapFrequency_separator,
+.editPort.editW768 #editPageForm #queryTable #lblMaxEntries_separator,
+.editPort.editW768 #editPageForm #trlblIp #tdlblIp #lblIpAddress_separator,
+.editPort.editW840 #addPageForm #trKeyString_1 #lblAuthPassword_separator,
+.editPort.editW840 #editPageForm #trKeyString_1 #lblAuthPassword_separator,
+.editPort.editW768 #viewPageForm #lblFiltering_separator,
+.editPort #lbl2_separator,
+.editPort #lblPtPOper,
+.editPort #lblPtPOper_separator {
+padding-right: 0 !important;
+margin-left: 0 !important;
+}
+.editPort #sntpServer #trLinkLocalInterface {
+width: 450px;
+}
+.editPort #snmpNotReceiver #v6Cntrl_trAddrType > td,
+.editPort #sntpServer #v6Cntrl_trAddrType > td,
+.editPort #serverLogServer #v6Cntrl_trAddrType > td,
+.editPort form table td.dialogBoxBody > table tr.trTop11 > td,
+.editPort #xmlresult table td.dialogBoxBody > table tr.trTop11 > td {
+padding-top: 11px;
+}
+.editPort #snmpCommunity #trLinkLocalInterface {
+width: 320px;
+}
+.editPort #snmpCommunity #v6Cntrl_trAddrType > td {
+padding-top: 11px;
+}
+.editPort #snmpCommunity #tdCommunityRange {
+display: none;
+}
+.editPort #handlePageMessage {
+padding-left:20px !important;
+}
+.editPort #handlePageMessage .pageMessage {
+width: auto !important;
+}
+.editPort .inlineTables table {
+display: inline-block;
+vertical-align: top;
+}
+.editPort #errorTxtMessage table.contextMessageTop {
+width: 100%;
+}
+.editPort #tdBtnApply table {
+margin-right: 20px !important;
+}
+.editPort .right #lblHintAuthReAuthPeriod {
+color: #8E8E8E !important;
+}
+.editPort table#tblMACBaseACE input,
+.editPort table#tblIpBaseACE input {
+line-height: 24px;
+height: 24px;
+}
+#radiusTable td {
+height: 32px;
+}
+#radiusTable #tdSourceIpv4Address,
+#radiusTable #tdSourceIpv6Address,
+#radiusTable #tdlblDefaultRetries,
+#radiusTable #tdlblDefaultDeadTime,
+#radiusTable #tdRadiusAccounting {
+padding-left: 20px;
+}
+#radiusTable [for="rdo802"] {
+margin-right:8px;
+}
+#radiusTable #txtDefaultRetries,
+#radiusTable #txtDefaultTimeout,
+#radiusTable #txtDefaultDeadtime,
+.editPort.editRadius #txtAuthentication,
+.editPort.editRadius #txtPriority,
+.editPort.editRadius #txtAccounting {
+width: 80px;
+}
+.editPort.editRadius #tdSourceIPAddress .overr,
+.editPort.editRadius #tdSourceIPAddress .overr select {
+width: 170px;
+}
+@-moz-document url-prefix() {
+.editPort.editRadius #tdSourceIPAddress .overr select {
+width: 186px;
+}
+}
+#mainBody #tblLocalEngineId #tdlblUseDefault,
+#mainBody #tblLocalEngineId #tdlblNone,
+#mainBody #tblLocalEngineId #tdlblUserDefined {
+height: 30px;
+padding-right: 10px;
+}
+.security_accCtrl_macBaseAcl_GE_m .overr,
+.security_accCtrl_macBaseAcl_GE_m #slctACLGUI,
+.security_accCtrl_ipBaseAcl_m .overr,
+.security_accCtrl_ipBaseAcl_m #slctACLGUI,
+.qos_policyClassMaps_m select#slctFilter,
+.qos_policyClassMaps_m #overr1,
+.addPolicyClassMap select[id$="select"],
+.addPolicyClassMap #overr1,
+.editPort #addAggregatePolicer div.overr,
+.editPort #addAggregatePolicer div.overr select,
+.editPort #tdMACAclSelect div.overr,
+.editPort #tdMACAclSelect #slctMacAclName,
+.editPort #tdMACAclSelect div.overr select#macAclSelectName,
+.editPort #tdIPv4AclSelect div.overr,
+.editPort #tdIPv4AclSelect #slctIpv4AclName,
+.editPort #tdIPv4AclSelect div.overr select#ipv4AclSelect,
+.editPort #tdIPv6AclSelect div.overr,
+.editPort #tdIPv6AclSelect div.overr select#ipv6AclSelect,
+.editPort.editArpVlan #tdVLANArpACN div.overr,
+.editPort.editArpVlan #tdVLANArpACN div.overr select#slctListName,
+#mainBody #securityMacAclTable #tdUnitSelect div.overr,
+#mainBody #securityMacAclTable #tdUnitSelect div.overr select#slctACLGUI,
+#mainBody #securityAccBaseTable #tdUnitSelect div.overr,
+#mainBody #securityAccBaseTable #tdUnitSelect div.overr select#slctACLGUI,
+.qos_advance_pol_propert .dialogBoxBody #Table2 .overr,
+.qos_advance_pol_propert .dialogBoxBody #Table2 .rlQosPolicerName
+{
+width: 360px;
+}
+@-moz-document url-prefix() {
+.qos_policyClassMaps_m select#slctFilter,
+.addPolicyClassMap select[id$="select"],
+.editPort #tdIPv4AclSelect div.overr select#ipv4AclSelect,
+.editPort #tdIPv6AclSelect div.overr select#ipv6AclSelect,
+.editPort.editArpVlan #tdVLANArpACN div.overr select#slctListName,
+#mainBody #securityMacAclTable #tdUnitSelect div.overr select#slctACLGUI,
+#mainBody #securityAccBaseTable #tdUnitSelect div.overr select#slctACLGUI
+{
+width: 376px;
+}
+}
+.editPort.editRadius #tdRdolblPlaintext {
+padding-right: 10px;
+}
+.editPort.editRadius #tderrHostIp,
+.editPort.editRadius #tderrHostName {
+padding-left: 10px;
+}
+.editRadius label[for="slctIPv6Interfaces"] {
+margin-top: 0 !important;
+}
+.editPort.editRadius #Table7 td {
+width: auto;
+}
+.editPort.editRadius #tdLinkLocalInterface {
+width: 310px;
+}
+.dialogBox .dialogBoxBody table.contextMessageTop tbody tr td {width:130px;}
+.editPort #tblIPv6ACE #tdLblSrcAddrErr,
+.editPort #tblIPv6ACE #tdLblSrcPrefixErr,
+.editPort #tblIPv6ACE #tdLblDstAddrErr,
+.editPort #tblIPv6ACE #tdLblDstPrefixErr,
+#tblTop span#lblTcpAconAvoidanceEnable,
+#xmlresult .hint,
+.vlan .hint,
+.spanningTree .hint,
+#radiusTable .hint {
+padding-left: 10px
+}
+.editW600,
+.editW600 #headTable1,
+.editW600 h4.grand {
+width: 600px !important;
+}
+.editW600 #tr_rdoAccess_1 td.right {
+width: 80px;
+}
+.editW600 table.pageMessage,
+.editW600 img.hr {
+width: 560px !important;
+}
+.editW600 .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child {
+width: 50px;
+}
+.editW600 input#txtPVID {
+width: 80px;
+}
+.editW640,
+.editW640 #headTable1,
+.editW640 h4.grand {
+width: 640px !important;
+}
+.editW640 table.pageMessage,
+.editW640 img.hr {
+width: 600px !important;
+}
+.editW640 .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child {
+width: 50px;
+}
+.editW768,
+.editW768 #headTable1,
+.editW768 h4.grand {
+width: 768px !important;
+}
+.editW768 table.pageMessage,
+.editW768 img.hr {
+width: 728px !important;
+}
+.editW768 .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child {
+width: 50px;
+}
+JoinVlan.editW768 .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child
+{
+width: 1px;
+}
+.editW768 #trVlanRange td {
+padding-top: 0 !important;
+}
+.editW840,
+.editW840 #headTable1,
+.editW840 h4.grand {
+width: 840px !important;
+}
+.editW840 table.pageMessage,
+.editW840 img.hr {
+width: 800px !important;
+}
+.editW840 .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child {
+width: 50px;
+}
+.editW840 #tblAdd #pageMessageID {
+margin-bottom:0px;
+}
+.editW960,
+.editW960 h4.grand {
+width: 960px !important;
+}
+.editW960 table.pageMessage,
+.editW960 img.hr {
+width: 920px !important;
+}
+.editW960 .cnfIPGA {
+width: 120px !important;
+}
+#lblHyphen {
+margin: 0 10px;
+}
+#addBody {
+width: 840px;
+}
+.opticalModuleStatus #tblMain caption table.dataTable caption {
+line-height: 30px;
+}
+.opticalModuleStatus #tblMain caption {
+padding: 10px 0 0 20px;
+}
+.opticalModuleStatus #tblMain caption #lblTblCaption {
+font-weight: bold;
+}
+.opticalModuleStatus #opticTransTable td {
+font-family: Arial;
+font-size: 12px;
+color: #303030;
+height: 24px;
+padding-right: 7px;
+}
+.opticalModuleStatus #opticTransTable tr td:first-child {
+padding-right: 7px;
+}
+.userAccounts #tblTop table tr:not(:last-child) > td {
+padding-bottom: 10px;
+}
+.userAccounts #Tbl2 {
+margin-top: 10px;
+}
+.userAccounts #Tbl2 td.lblRow label {
+padding-top: 7px;
+display: block;
+}
+.userAccounts #tr_rdoCoS_1 td.right,
+.userAccounts #tr_rdoTrusted_1 td.right,
+.userAccounts #tr_rdoOptDisabled_1 td.right {
+height: 24px;
+width: 100px;
+}
+.userAccounts #tr_rdoLocalBtn_1 td.right,
+.userAccounts #tr_rdoRadiusLocal_1 .right,
+.userAccounts #tr_rdoNone_1 .right {
+height: 30px;
+width: 100px;
+}
+.userAccounts #tblTop table td#tdLblQoSMode,
+.userAccounts #tblTop table td#tdRadioBtn {
+padding-bottom: 0 !important;
+}
+.userAccounts .formBody .HttpServerPort,
+.userAccounts .formBody .HttpsServerPort {
+padding-left: 100px
+}
+.arpControl .dataTable td > input:first-child + label,
+.userAccounts .dataTable td > input:first-child + label {
+margin-right: 0 !important;
+}
+#tblACLMAC .lastTh img,
+#tblACLipv4 .lastTh img,
+#tblACLipv6 .lastTh img,
+#qosAdvanProfileTable .lastTh img,
+#RemoteEngineIDTable .lastTh img,
+.arpControl .lastTh img,
+.userAccounts .lastTh img {
+width: 300px;
+height: 1px;
+}
+.slcUserName div.overr {
+width: 198px !important;
+}
+.portLimitPowerMode {}
+.portLimitPowerMode #TblMain > tbody > tr:not(.titleLine) > td:last-child,
+.portLimitPowerMode .dataTable > tbody > tr:not(.titleLine) > td:last-child,
+.portLimitPowerMode #Filter > tbody > tr:not(.titleLine) > td:last-child,
+.portLimitPowerMode .Filter > tbody > tr:not(.titleLine) > td:last-child {padding: 0;}
+.portLimitPowerMode #tblBtn {
+width: 100%;
+height: 50px;
+}
+.portLimitPowerMode table#tblBtn table {
+float: left;
+}
+.portLimitPowerMode caption #lblPOESettingsTable span {
+font-weight: bold;
+}
+.portLimitPowerMode #sysPoeInterTable_emptyCell {
+padding: 5px 0 5px 10px;
+}
+.portLimitPowerMode #tblMain tr[id^="row_"] > td {
+font-size: 13px;
+padding-right: 8px;
+height: 24px;
+color: #303030;
+}
+.portLimitPowerMode td > input:first-child + label {
+margin-right: 0px;
+}
+.portLimitPowerMode #tblMain tr.selected > td {
+color: #fff;
+}
+.portLimitPowerMode #tblMain tr#row_1 td:first-child label {
+margin-right: 0;
+}
+.editPortLimit {overflow: hidden;}
+.editPortLimit #Table1 {
+width: 100%;
+}
+.editPortLimit #Table1 > tbody > tr:not(.titleLine) > td:first-child,
+.editPortLimit .dialogBoxBody {padding: 0}
+.editPortLimit .dialogBoxBody > table tr:first-child td {
+padding: 0;
+}
+.editPortLimit .dialogBoxBody > table tr:first-child td #titleEPortLimit {
+padding: 0;
+margin: 0;
+}
+.editPortLimit #lblPortPowerPriorCritical,
+.editPortLimit #lblPortPowerPriorHigh {
+margin-right: 10px;
+}
+.editPortLimit #txtPowerAllocation {
+width: 57px;
+}
+.editPortLimit #lblFormatted_MaxPower,
+.editPortLimit #lblFormatted_PowerConsumptionData {
+padding-right: 5px;
+}
+.editPortLimit .notRequired {
+width: 0px;
+}
+.editPortLimit table.pageMessage {
+margin: 0 !important;
+}
+.editPortLimit #pgMsg {
+padding-left: 10px;
+}
+.ipv4Interface tr.leftNoColon > td {padding-bottom:0px !important;}
+.ipv4Interface tr.leftNoColon > td:first-child > table.contextMessageTop {margin-left:305px;}
+.ipv4Interface tr.leftNoColon > td:last-child > table.contextMessageTop {margin-left:395px;}
+.ipv4Interface #tblIpv4InterfaceTop {
+background: #F9F9F9;
+}
+.ipv4Interface table#tblIpv4Interface tr td {
+padding-bottom: 15px;
+}
+.ipv4Interface table#tblIpv4Interface > tbody > tr > td:first-child,
+.Neighbors_Add_XML #tdIpv6,.Neighbors_Add_XML #tdMac
+{
+padding-left: 20px;
+}
+.ipv4Interface table#tblIpv4Interface > tbody > tr:first-child > td {
+padding-top: 15px;
+}
+.ipv4Interface table#tblIpv4Interface tr td table td {
+padding: 0;
+}
+.ipv4Interface .overr {
+width: 65px;
+}
+.ipv4Interface .overr #slctVlan {
+width: 65px;
+}
+@-moz-document url-prefix() {
+.ipv4Interface .overr #slctVlan {
+width: 83px;
+}
+}
+.ipv4Interface #tblIpv4Interface #lblIpAdd_img,
+.ipv4Interface #tblIpv4Interface #lblMask_img {
+display: none;
+}
+.ipv4Interface #tblIpv4Interface #lblDynamic {
+margin-right: 25px;
+}
+.ipv4Interface #tblIpv4Interface input {
+height: 26px;
+}
+.ipv4Interface #tblIpv4Interface input#txtPrefix {
+width: 35px;
+}
+.ipv4Interface #tblIpv4Interface #txtNetworkMask {
+width: 120px;
+margin-right: 25px;
+}
+.ipv4Interface table#tblIpv4Interface tr td label span#lblNetworkMask,
+.ipv4Interface table#tblIpv4Interface tr td label span#lblPrefix{
+margin-right: 10px;
+}
+#protocolsTableTftp > td + td {
+width: 100%;
+}
+#lblUserDefined {
+padding-right: 10px;
+}
+#lblOperationalDefault {
+margin-left: 8px;
+}
+td#tdLblIGMPStatusCB label {
+margin-left:10px;
+}
+.dynamicMACAddresses {}
+.dynamicMACAddresses caption {
+padding: 10px 0 0 10px;
+}
+.dynamicMACAddresses img#lblAgingInt_img {
+width: 10px;
+}
+.dynamicMACAddresses table.dataTable {
+width: 683px;
+margin: 0 auto 10px;
+}
+.dynamicMACAddresses #tblMain {
+padding: 0 10px;
+}
+.dynamicMACAddresses #dynamicAgingTime {
+margin-top: 15px;
+}
+.dynamicMACAddresses #dynamicAgingTime .formBody,
+.bridg_vlan_gvrpParam_m #tblMain .formBody
+{
+padding: 10px 0 10px 15px;
+}
+.dynamicMACAddresses #txtAgingTime {
+width: 45px;
+}
+.dynamicMACAddresses #lblSEC {
+padding-left: 10px;
+}
+.dynamicMACAddresses #lblHintAgingTime {
+margin-left: 10px;
+}
+.dynamicMACAddresses #tblMain tr[id^="row_"] > td {
+border-left: none;
+}
+.dynamicMACAddresses #dynamicAddTable thead tr:first-child th:first-child {
+background: #ebebeb;
+border: 1px solid #e2e2e2;
+border-bottom: none;
+}
+.dynamicMACAddresses #dynamicAddTable thead tr.sort th:first-child {
+border-left: 1px solid #e2e2e2;
+border-right: 1px solid #e2e2e2;
+}
+.dynamicMACAddresses #dynamicAddTable > tbody > tr {
+border-left: 1px solid #e2e2e2;
+}
+.dynamicMACAddresses #dynamicAddTable > tbody > tr > td#dynamicAddTable_emptyCell {
+border-right: 1px solid #e2e2e2;
+}
+.dynamicMACAddresses #dynamicAddTable > tfoot > tr > td:first-child {
+border: 1px solid #e2e2e2;
+border-top: none;
+height: 50px;
+}
+.dynamicMACAddresses #dynamicAddTable thead #trHeader th:first-child {
+text-align: center;
+vertical-align: middle;
+border-left: 1px solid #e2e2e2;
+width: 62px;
+}
+.dynamicMACAddresses #dynamicAddTable thead #trHeader th:last-child {
+border-right: 1px solid #e2e2e2;
+}
+.dynamicMACAddresses #dynamicAddTable thead #trHeader th#lblCaptionMAC {
+width: 121px;
+}
+.dynamicMACAddresses #dynamicAddTable thead #trHeader th#lblCaptionInterface {
+width: 68px;
+}
+.dynamicMACAddresses #dynamicAddTable thead tr:first-child th:first-child #Table1 {
+margin-top: 10px;
+background: #ebebeb;
+display: block;
+width: 665px;
+}
+.dynamicMACAddresses #dynamicAddTable #sPagination {
+float: right;
+margin-top: -3px;
+}
+.dynamicMACAddresses #dynamicAddTable #sPagination div.overr {
+margin-right: 0;
+}
+.dynamicMACAddresses #Table5 {
+background: #ebebeb;
+}
+.dynamicMACAddresses #Table5 td:first-child {
+padding-left: 20px;
+}
+.dynamicMACAddresses #Table6 {
+margin-left: 10px;
+margin-top: 12px;
+float: left;
+}
+.dynamicMACAddresses #Table7 {
+display: block;
+float: right;
+margin-top: 10px;
+}
+.dynamicMACAddresses label.left, .dynamicMACAddresses label.leftNoColon {margin-right: 0;}
+.dynamicMACAddresses .sPagination {display: none;}
+.dynamicMACAddresses #txtVLAN {width: 80px;}
+@-moz-document url-prefix() {
+.dynamicMACAddresses #slctSort,
+.dynamicMACAddresses #rlPhdPortsIfIndex$select,
+.dynamicMACAddresses #trunk {width: 133px;}
+}
+.mainDIVcaption {width:49%;float:left;display:inline-block;}
+#moreOptionsBlock {cursor:pointer;float:right !important;display:inline-block;}
+.moreOptionsBlockClassHTML {margin-right:30px;position:relative;bottom:1px;}
+#moreOptions {color:#7d7d7d;text-decoration:none;}
+#arrow {color: #0068D9 !important;}
+#RTIPMulticastGroup tfoot {border-right: 1px solid #e2e2e2 !important;}
+label[for="checkAll"] {display:none;}
+.lblHdrAddr_IPv6_Default_Routers,
+.lblHdrInterface_IPv6_Default_Routers,
+.lblHdrState_IPv6_Default_Routers,
+.lblHdrType_IPv6_Default_Routers {font-weight:bold;}
+.multicastProperty tr[id$="_RTIPMulticastGroup"] td
+{
+border-right:1px solid white !important;
+}
+.multicastProperty tr[id$="_RTMulticastGroup"] td
+{
+border-right:1px solid white !important;
+}
+.multicastProperty tr[id$="_RTIPMulticastGroup"] td:last-child
+{
+border-right:none !important;
+}
+.multicastProperty tr[id$="_RTMulticastGroup"] td:last-child
+{
+border-right:none !important;
+}
+#tdMsg1, #tdMsg2 {
+background: none repeat scroll 0 0 #F9F9F9;
+padding-left: 20px;
+padding-top: 15px;
+}
+#containerRTIPMulticastGroup {
+background: none repeat scroll 0 0 #F9F9F9;
+padding-bottom: 10px;
+}
+#containerRTIPMulticastGroup table.dataTable {
+border: 1px solid #E2E2E2;
+margin: 0 0 0 10px;
+width: calc(100% - 20px);
+}
+#containerRTIPMulticastGroup table.dataTable tr:not(#headLine) th
+{
+background-color: #ebebeb;
+padding: 0 10px;
+vertical-align: middle;
+}
+#containerRTIPMulticastGroup table.dataTable tr#headLine th
+{
+padding: 0 10px;
+vertical-align: middle;
+}
+#containerRTIPMulticastGroup #RTIPMulticastGroup > thead > tr:not(#headLine) > th {
+padding: 15px 20px 2px 20px !important;
+}
+#containerRTIPMulticastGroup #RTIPMulticastGroup > tbody td:not(:first-child) {
+padding: 4px 10px;
+}
+#containerRTIPMulticastGroup #tdBtnGo {
+padding-right: 0;
+}
+#containerRTIPMulticastGroup tr.filterRow > td {
+padding-bottom: 15px;
+}
+#containerRTIPMulticastGroup table.dataTable th input{
+margin-top: 0px;
+}
+#containerRTIPMulticastGroup #lblVlanId,
+#containerRTIPMulticastGroup #lblIPAdd,
+#containerRTIPMulticastGroup #lblSourceAdd {
+font-weight: bold;
+}
+#containerRTMulticastGroup > table > tbody > tr > td #RTMulticastGroup > tbody > tr > td {
+border-right:1px solid white !important;
+}
+#containerRTMulticastGroup > table > tbody > tr > td #RTMulticastGroup > tbody > tr > td:last-child {
+border-right:none !important;
+}
+#containerRTMulticastGroup > table > tbody > tr > td #RTMulticastGroup > tbody > tr > td:first-child {
+padding-right: 10px;
+}
+#containerRTMulticastGroup {
+background: none repeat scroll 0 0 #F9F9F9;
+padding-bottom: 10px;
+}
+#containerRTMulticastGroup table.dataTable {
+border: 1px solid #E2E2E2;
+margin: 0 0 0 10px;
+width: calc(100% - 20px);
+}
+#containeroNeighborInformation table.dataTable tr:not(#trHeader) th,
+#containerRTMulticastGroup table.dataTable tr:not(#headLine) th
+{
+background-color: #ebebeb;
+padding: 0 10px;
+vertical-align: middle;
+}
+#containerRTMulticastGroup table.dataTable tr#headLine th
+{
+padding: 0 10px;
+vertical-align: middle;
+}
+#containerRTMulticastGroup #RTMulticastGroup > thead > tr:not(#headLine) > th {
+padding: 15px 20px 2px 20px !important;
+}
+#containerRTMulticastGroup #RTMulticastGroup > tbody td:not(:first-child) {
+padding: 4px 10px;
+}
+#containerRTMulticastGroup #tdBtnGo {
+padding-right: 0;
+}
+#containerRTMulticastGroup tr.filterRow > td {
+padding-bottom: 15px;
+}
+#containerRTMulticastGroup table.dataTable th input{
+margin-top: 0px;
+}
+#containerRTMulticastGroup #lblVlanId,
+#containerRTMulticastGroup #lblMACAdd {
+font-weight: bold;
+}
+#tdVLANnumLbl #lblVLANFilternumLbl_separator
+{
+display:none !important;
+}
+.AddMACMulticastGroup h4.grand {
+margin-bottom: 0;
+}
+.AddMACMulticastGroup #lblHintVlan {
+margin-left: 10px;
+}
+.AddMACMulticastGroup #txtAddr,.AddMACMulticastGroup label[for="txtAddr"] {
+margin-bottom: 5px;
+}
+.AddMACMulticastGroup #lblLAB {
+font-weight: bold;
+}
+.AddMACMulticastGroup #lblLAB_img {
+display: none;
+}
+.addIPMGA #txtIPAddr,
+.addIPMGA #txtSourceIPAddr {
+width: 120px;
+}
+.editLag #titleLags {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+body.dialogBox.editLag .dialogBoxBody table.pageMessage {
+margin-bottom: 0;
+}
+.editLag #selYourLag {
+margin-top: 15px;
+}
+.editLag #lagSetting {
+padding-top: 10px;
+}
+.editLag #notMembers, .editLag #yesMembers {
+height: 120px;
+border: 1px solid #e2e2e2;
+}
+.editLag #tblMember {
+margin-top: 15px;
+}
+.editLag #tblMember td.lagArrow {
+display: block;
+padding-left: 10px;
+margin-top: 25px;
+}
+.editLag #lblCurrAdminStatusData,
+.editLag #lblCurrSpeedData,
+.editLag #lblCurrFlowCntrlData {
+padding-right: 20px;
+}
+.editLag .dialogBoxBody td td label:not(.left) span {
+margin-left: 10px;
+}
+.editLag .right:not(.lagArrow) {
+width: 130px;
+}
+.editLag #Table3 {
+height: 60px;
+}
+.editLag #Table3 td.radioSpacing {
+padding-top: 20px;
+}
+.editLag #lblPortList_separator, .editLag #lblLagMembers_separator {
+display: none;
+}
+.editLag #Table1 {
+width:auto;
+}
+.editLag #lblReActivateCB {
+margin-left: 5px;
+position: relative;
+bottom: 3px;
+}
+.editLag .dialogBox table.dialogButtons {
+margin-bottom: 20px;
+}
+.interfaceIPs .lastTh img,
+#tblVoiceOuiINT .lastTh img {
+width: 190px;
+height: 1px;
+}
+.interfaceIPs #trFilter,
+#tblVoiceOuiINT #trFilter {
+height: 42px;
+}
+.interfaceIPs #trFilter > th > table,
+#tblVoiceOuiINT #trFilter > th > table {
+margin-left: 20px;
+}
+.interfaceIPs #sPagination {
+display: none;
+}
+.editInterfaceIPs {}
+.editInterfaceIPs #titleIPIS {
+width: 100%;
+margin-bottom: 0;
+}
+.editInterfaceIPs .trustRow table tr td.right {
+width: 70px;
+}
+.editInterfaceIPs .tdPortSelect {
+width: 140px;
+}
+.PBGroupsToVlan_a label[for="radioTrunk"],
+.PBGroupsToVlan_a label #lblHintPathCost,
+.editInterfaceIPs label span,
+.editInterfaceIPs label span {
+margin-left: 10px;
+}
+.PBGroupsToVlan_a label #lblGroupId,
+.PBGroupsToVlan_a label #lblLAG,
+.PBGroupsToVlan_a label #lblGroupId_separator,
+.PBGroupsToVlan_a label #lblVlanId_separator,
+.PBGroupsToVlan_a label span#lblInterface,
+.editInterfaceIPs label span#lblInterface,
+.editInterfaceIPs label span#lblARPStatus,
+.editInterfaceIPs label span#lblTrustedInterface,
+.editInterfaceIPs #lblInterface_separator,
+.editInterfaceIPs #lblARPStatus_separator,
+.editInterfaceIPs #lblTrustedInterface_separator {
+margin-left: 0px !important;
+}
+.PBGroupsToVlan_a label #lblVlanId_separator,
+.PBGroupsToVlan_a label #lblGroupId_separator,
+.PBGroupsToVlan_a label #lblVlanId_separator,
+.mappingGroupsToVlan_a #lblGroupId_separator,
+.mappingGroupsToVlan_a #lblVlanId_separator {
+padding-right:0px !important;
+}
+.PBGroupsToVlan_a #radioTrunk,
+.PBGroupsToVlan_a label #lblLAG,
+.PBGroupsToVlan_a label #lblPort,
+.editInterfaceIPs #tdLblLag,
+.editInterfaceIPs #tdLblPort {
+padding-right: 10px;
+}
+.editInterfaceIPs .dialogBoxBody img.hr {
+width: 97%;
+}
+.editLag .hrTD {
+height: 1px;
+width: 920px;
+}
+.editInterfaceIPs .hrTD {
+padding-top: 15px;
+}
+.editInterfaceIPs #tdLblPort,
+.editInterfaceIPs #tdLblLag,
+.editInterfaceIPs #FirstUniqUnitPortsLagsHTML td.right {
+width:0px;
+}
+.portSecurity {}
+.portSecurity #trFilter > th {
+padding: 10px 0;
+}
+.portSecurity #tdLbl_lblFilter, .portSecurity #tdLbl_lblFilter_EqualsTo {
+display: none;
+}
+.portSecurity #tblMain tbody tr td:first-child {
+padding-right: 7px;
+}
+.portSecurity #sPagination {
+display: none;
+}
+.queueScheduling {overflow: hidden;}
+.queueScheduling .dataTable > tbody > tr:not(.titleLine) > td:first-child {
+padding-left: 10px;
+padding-right: 10px;
+}
+.queueScheduling #Table1 > tbody > tr:not(.titleLine) > td {
+padding: 0;
+}
+.queueScheduling body:not(.loginPage) #Table1 {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+margin-top: 14px;
+}
+.queueScheduling tfoot,
+.queueScheduling table#Table1 {
+background: #fff;
+}
+.queueScheduling table:not([class^="btn_"]) {
+width: 100%;
+}
+.queueScheduling label {
+position: absolute;
+margin-top: 4px;
+}
+.queueScheduling label + span {
+margin-left: 20px;
+}
+.queueScheduling .dataTable > tbody > tr:not(.titleLine) > td {
+padding: 0 10px 0 0;
+}
+.queueScheduling #tblQueue td:not(:last-child) {
+width: 1px;
+}
+.queueScheduling #tblQueue > tbody > tr > td {
+padding-top: 15px;
+}
+.queueScheduling #tblQueue > tbody > tr:last-child > td {
+padding-bottom: 15px;
+}
+.queueScheduling .evenTR {
+background: none;
+}
+.queueScheduling [id^="txtWeight"] {
+margin-left: 10px;
+}
+.queueScheduling [id$="_emptyCell"] {
+}
+.editBandwidthControl {overflow-x: hidden}
+body#mainBody.quickstart {
+width: 890px;
+}
+.quickstart #linkTable {
+margin: 20px 10px;
+}
+.quickstart #linkTable td {
+height: 35px;
+}
+.quickstart #linkTable td a.linkText {
+color: #000000;
+}
+body#mainBody.support {
+overflow: hidden;
+width: 890px;
+}
+.support #supText {
+line-height: 21px;
+text-align: justify;
+font-size: 14px;
+}
+.arpControl #tblArpAcc #Table1 {
+background: #fff;
+margin-top: 10px;
+}
+.vlanArpInspection #tblVlan {
+margin: 15px 0 0 20px;
+}
+.vlanArpInspection #tblVlan td.lagArrow {
+display: block;
+margin-top: 25px;
+padding-left: 10px;
+}
+.vlanArpInspection #notMembers, .vlanArpInspection #yesMembers {
+border: 1px solid #E2E2E2;
+height: 120px;
+}
+.vlanArpInspection #lblTblName {
+font-weight: bold;
+}
+.vlanArpInspection #lblnotMembers_separator, .vlanArpInspection #lblyesMembers_separator {
+display: none;
+}
+.arpAcRules #lblFilter, .arpAcRules #lblSepar, .arpAcRules #lblEqualTo, .arpAcRules #btnACL {
+display: none;
+}
+.arpAcRules #lblTblName {
+font-weight: bold;
+}
+.arpAcRules #Table4 {
+margin: 5px 0 5px 2px;
+}
+.arpAcRules #inspectionListTable {
+margin: 0 auto;
+width: 97%;
+}
+.arpAcRules #inspectionListTable > thead {
+border: 1px solid #e2e2e2;
+border-bottom: none;
+}
+.arpAcRules #inspectionListTable #inspectionListTable_emptyCell {
+border-right: 1px solid #e2e2e2;
+border-left: 1px solid #e2e2e2;
+}
+.arpAcRules #inspectionListTable > tfoot {
+border: 1px solid #e2e2e2;
+border-top: none;
+}
+.editArpAcRules #lblEditArpAcRules {
+width: 100%;
+}
+.editArpAcRules #Table3 tbody tr td img.hr {
+width: 97%;
+}
+.arpInspectionInterface #tdLbl_lblFilter,
+.arpInspectionInterface #tdLbl_lblFilter_EqualsTo {
+display: none;
+}
+.arpInspectionInterface #tdLbl_lblFilter_Interface {
+padding-left: 10px;
+}
+.arpInspectionInterface #trFilter {
+height: 35px;
+}
+.addMacBaceAcl #Table2 tr td .pageMessage {
+width: 100% !important;
+margin-top: 0px;
+}
+.addMacBaceAcl #tdAclNameRange {
+display: none;
+}
+.InterSet #lblTblName {
+background-color: #F9F9F9;
+font-weight: bold;
+line-height: 22px;
+float: left;
+}
+.InterSet caption {
+padding: 10px 0 0 10px;
+}
+.InterSet #trFilter > th > table {
+margin: 5px 0 5px 10px;
+}
+.InterSet h4.grand {
+margin-bottom: 0;
+}
+.InterSet [id^=tdLbl_lblFilter]:not(#tdLbl_lblFilter_Interface) {
+display: none;
+}
+.InterSet table.dataTable tbody tr[id^="row_"] td {
+padding: 0 8px;
+border-left: 1px solid #FFFFFF;
+}
+.InterSet h3#pageHeader {
+padding-bottom: 15px !important;
+}
+.InterSet #titleIPIS {
+margin-bottom: 0;
+}
+.editInterfaceIPs #lblStatus, .editInterfaceIPs #lblStatus_separator {
+margin-left: 0;
+}
+.editInterfaceIPs .dialogBox h4.grand{
+margin-bottom: 0;
+}
+.policyBinding h2.subTitle {
+background: none repeat scroll 0 0 #FFFFFF;
+color: #A5A5A5;
+font-size: 18px;
+font-weight: normal;
+margin-bottom: 0;
+padding-bottom: 6px;
+padding-top: 10px;
+text-transform: uppercase;
+width: 100%;
+}
+.policyBinding table#tblMain tr td.formBody {
+display: block;
+padding: 15px 0 15px 20px;
+}
+.policyBinding #dnamicTBODY {
+background: #F9F9F9;
+padding: 5px 0 15px 20px;
+}
+.policyBinding table#tblMain tr td.formBody .filterRowLocal .overr {width:110px;}
+.policyBinding table#tblMain tr td.formBody .filterRowLocal select#slctFilterIf {width:110px;}
+@-moz-document url-prefix() {
+.policyBinding table#tblMain tr td.formBody .filterRowLocal select#slctFilterIf {
+width: 126px;
+}
+}
+.addPolicyClassMap #txtActinTypeSetNewVal {
+width: 35px;
+}
+.addPolicyClassMap #Table5 tr > td.right {
+padding-right: 10px;
+width: 0px;
+}
+addPolicyClassMap #Table7 > td:first-child {
+width: 35px;
+}
+.addPolicyClassMap table#table5.l2 tr {
+height: 25px;
+}
+.addPolicyClassMap #tdPoliceTypeTbl > table,
+.addPolicyClassMap #tdPolicerActionTbl > table {
+width: 380px;
+}
+.editPolicyClassMap #tdPoliceTypeTbl > table,
+.editPolicyClassMap #tdPolicerActionTbl > table {
+width: 380px;
+}
+.addPolicyClassMap #tr_rdoPolicyNone_1 td:nth-child(2),
+.editPolicyClassMap #tr_rdoPolicyNone_1 td:nth-child(2) {
+width: 85px;
+}
+.addPolicyClassMap #tr_rdoPolicyNone_1 td:last-child,
+.editPolicyClassMap #tr_rdoPolicyNone_1 td:last-child {
+width: 125px;
+}
+.addPolicyClassMap #tr_rdoSetModeNone_1 td:nth-child(2),
+.editPolicyClassMap #tr_rdoSetModeNone_1 td:nth-child(2) {
+width: 85px;
+}
+.addPolicyClassMap #tr_rdoSetModeNone_1 td:last-child,
+.editPolicyClassMap #tr_rdoSetModeNone_1 td:last-child {
+width: 125px;
+}
+.addPolicyClassMap #txtQosPolicerCIR, .addPolicyClassMap #txtQosPolicerCBS {
+width: 75px;
+}
+.addPolicyClassMap #tdlblHintCbs {
+width: 0px;
+}
+.addPolicyClassMap #Table7 tr td table.contextMessageRight,
+.addPolicyClassMap #Table7 tr td table.contextMessageRight tr td:last-child {width: 100%}
+body.qos_glob_general_bandwidth_e #table_headers tbody > tr:not(.titleLine) > td {
+padding-top:0px;
+}
+body.security_network_stormControl_e #Table1 tbody > tr:not(.titleLine) > td {
+padding-bottom: 0px;
+}
+.addPolicyClassMap #slcAggregatePolicer, .editPolicyClassMap #slcAggregatePolicer {
+width: 280px;
+}
+.addPolicyClassMap #overr1, .editPolicyClassMap #overr1 {
+width: 280px;
+}
+.editPolicyClassMap #txtActinTypeSetNewVal {
+width: 35px;
+height:25px;
+}
+.editPolicyClassMap #Table5 tr > td.right {
+padding-right: 10px;
+width: 0px;
+}
+.editPolicyClassMap #Table7 > td:first-child {
+width: 35px;
+}
+.editPolicyClassMap table#table5.l2 tr {
+height: 25px;
+}
+.editPolicyClassMap #txtQosPolicerCIR, .editPolicyClassMap #txtQosPolicerCBS {
+width: 75px;
+height:24px;
+}
+.editPolicyClassMap #tdlblHintCbs {
+width: 0px;
+}
+.editPolicyClassMap #Table7 tr td table.contextMessageRight,
+.editPolicyClassMap #Table7 tr td table.contextMessageRight tr td:last-child {width: 100%}
+.main_table_ip_rout_a #errMetric {
+width:100%;
+}
+.main_table_ip_rout_a label[for="txtMetric"] {
+width:50px;
+}
+.overr.ttp,.ttp {
+width:300px;
+}
+.ttp option {
+width:330px;
+}
+.overr.ttpIE,.ttpIE {
+width:300px;
+padding-right: 27px;
+}
+.ttpIE option {
+width:335px;
+}
+.mmgmtSessionTimeout #Table1 td.formBody {
+padding-top: 10px;
+}
+.mmgmtSessionTimeout #Table2 td:first-child {
+height: 35px;
+}
+.mmgmtSessionTimeout #pageMessageID {
+margin-bottom: 0;
+}
+.mmgmtSessionTimeout #pageMessageID td {
+padding-bottom: 15px;
+}
+.addEvent #lblAddRmonEvent {
+width: 100%;
+}
+.addEvent #addTable1 .hr {
+width: 98%;
+}
+.addEvent #tr_rdoOptNone_1 #lblOptNone,
+.addEvent #tr_rdoOptNone_1 #lblOptLog,
+.addEvent #tr_rdoOptNone_1 #lblOptTrap,
+.addEvent #tr_rdoOptNone_1 #lblOptBoth {
+padding: 0 20px 0 5px;
+}
+.addEvent #tdTxtCommunityRange,
+.addEvent #tdTxtDescriptionRange,
+.addEvent #tdTxtOwnerRange {
+display: none;
+}
+.addEvent #pageMessageID {
+margin-top: 0px;
+}
+.editEvent #lblEditRmonEvent {
+width: 100%;
+}
+.editEvent #editTable1 .hr {
+width: 98%;
+}
+.editEvent #tr_rdoOptNone_1 #lblOptNone,
+.editEvent #tr_rdoOptNone_1 #lblOptLog,
+.editEvent #tr_rdoOptNone_1 #lblOptTrap,
+.editEvent #tr_rdoOptNone_1 #lblOptBoth {
+padding: 0 20px 0 5px;
+}
+.editEvent #tdTxtCommunityRange,
+.editEvent #tdTxtDescriptionRange,
+.editEvent #tdTxtOwnerRange {
+display: none;
+}
+.editEvent #pageMessageID {
+margin-top: 0px;
+}
+.AddRMONHistoryControl #lblAddHistControl,
+.EditRMONHistoryControl #lblEditHistControl {
+width:100%;
+}
+.AddRMONHistoryControl table tr td h4.titleLbl.pt15,
+.EditRMONHistoryControl table tr td h4.titleLbl.pt15 {
+padding-top: 15px;
+}
+.AddRMONHistoryControl #Table1 > tbody > tr:not(.titleLine) > td:first-child,
+.EditRMONHistoryControl #Table1 > tbody > tr:not(.titleLine) > td:first-child{
+padding:0px;
+}
+.AddRMONHistoryControl .hrTD,
+.EditRMONHistoryControl .hrTD {
+padding-top: 15px;
+padding-left: 20px;
+}
+.AddRMONHistoryControl #addTable1 .hr,
+.EditRMONHistoryControl #EditTable1 .hr,
+.AddSNMPSecurGroupProf #addTable1 .hr,
+.EditSNMPSecurGroupProf #editTable1 .hr {
+width: 98%;
+}
+.EditRMONHistoryControl .overr select[name="historyControlIndex$select"] {
+width:108px;
+}
+@-moz-document url-prefix() {
+.EditRMONHistoryControl .overr select[name="historyControlIndex$select"] {
+width: 126px;
+}
+}
+.AddRMONHistoryControl #txtHistoryRequsted,
+.AddRMONHistoryControl #txtInterval,
+.EditRMONHistoryControl #txtMax,
+.EditRMONHistoryControl #txtInterval {
+width:60px;
+}
+.AddRMONHistoryControl #maxSamples td,
+.EditRMONHistoryControl #maxSamples td{
+padding-top: 0 !important;
+}
+.AddRMONHistoryControl .ctrlSpacing #tdLblPort,
+.AddRMONHistoryControl .ctrlSpacing #tdLblLag,
+.EditRMONHistoryControl .ctrlSpacing #tdLblPort,
+.EditRMONHistoryControl .ctrlSpacing #tdLblLag {
+padding: 0 10px 0 10px;
+}
+.AddRMONHistoryControl #lblHintHistoryRequsted,
+.AddRMONHistoryControl #lblHintIntervalSec,
+.EditRMONHistoryControl #lblHintMax,
+.EditRMONHistoryControl #lblHintIntervalSec {
+padding:0 20px 0 5px;
+}
+.AddRMONHistoryControl #lblSampling {
+padding:0px 0px 0px 10px;
+}
+.AddRMONHistoryControl #lblSampling_separator {
+padding-right:5px;
+}
+.AddRMONHistoryControl #pageMessageID,
+.EditRMONHistoryControl #pageMessageID {
+margin-top:0px;
+}
+.statRMONHistoryTable #statisHistoryTable tfoot tr td .btn_normal,
+.statRMONHistoryTable #statisHistoryTable tfoot tr td .btn_hover,
+.statRMONHistoryTable #statisHistoryTable tfoot tr td .btn_pressed {
+margin-left:10px;
+}
+.statRMONHistoryTable #statisHistoryTable tbody#statHistoryTable_tbody tr > td {
+border-right: 1px solid #FFFFFF;
+padding: 0 8px;
+}
+.statRMONHistoryTable #statisHistoryTable tbody#statHistoryTable_tbody tr > td:last-child {
+border-right:#E2E2E2;
+}
+.statRMONHistoryTable #statisHistoryTable tfoot tr > td {
+padding: 0px;}
+.addAlarm #lblAddAlarm {width: 100%}
+.addAlarm #pageMessageID {
+margin-top: 0px;
+}
+.addAlarm #tblAdd .hr {
+width: 98%;
+}
+.addAlarm #tr_rdoAbsolute_1 #lblAbsolute,
+.addAlarm #tr_rdoAbsolute_1 #lblDelta,
+.addAlarm #tr_rdoRising_1 #lblRising,
+.addAlarm #tr_rdoRising_1 #lblFalling,
+.addAlarm #tr_rdoRising_1 #lblRisingFalling {
+padding: 0 20px 0 5px;
+}
+.addAlarm #lblPort, .addAlarm #lblLAG {
+padding: 0 5px;
+}
+.addAlarm #lblOwnerRange {
+display: none;
+}
+.addAlarm #txtAlarmInterval,
+.addAlarm #txtRisingThreshold,
+.addAlarm #txtFallingThreshold {
+width: 90px;
+}
+.addAlarm #tr_rdoAbsolute_1 {
+height: 25px;
+}
+.addAlarm .tdPortSelect, .editAlarm .tdPortSelect {
+padding-right: 20px;
+}
+.editAlarm #lblEditAlarm {
+width: 100%;
+}
+.editAlarm #pageMessageID {
+margin-top: 0px;
+}
+.editAlarm #tblEdit .hr {
+width: 98%;
+}
+.editAlarm #lblOwnerRange {
+display: none;
+}
+.editAlarm #lblPort, .editAlarm #lblLAG {
+padding: 0 5px;
+}
+.editAlarm #lblFormatted_alarmValue {
+display: none;
+}
+.editAlarm #tr_rdoAbsolute_1 {
+height: 25px;
+}
+.editAlarm #tr_rdoAbsolute_1 #lblAbsolute,
+.editAlarm #tr_rdoAbsolute_1 #lblDelta {
+padding: 0 20px 0 5px;
+}
+.editAlarm #tr_rdoRising_1 #lblRising,
+.editAlarm #tr_rdoRising_1 #lblFalling,
+.editAlarm #tr_rdoRising_1 #lblRisingFalling {
+padding: 0 20px 0 5px;
+}
+.editAlarm #txtAlarmInterval,
+.editAlarm #txtRisingThreshold,
+.editAlarm #txtFallingThreshold {
+width: 90px;
+}
+.AddSNMPsecurview #addTable1 #lblAddView {
+width:100%;
+}
+.AddSNMPsecurview #addTable1 .hr {
+width: 98%;
+}
+.AddSNMPsecurview .hrTD{
+padding-top: 15px;
+}
+.AddSNMPsecurview #lblInsert,
+.AddSNMPsecurview #lblSelFromList {
+padding-left:10px;
+}
+.AddSNMPsecurview #includeObject,
+.AddSNMPsecurview #excludeObject {
+padding:0px 10px 0px 10px;
+}
+.AddSNMPsecurview .contextMessageRight {
+width:150px;
+}
+.AddSNMPsecurview #pageMessageID {
+margin-top:0px;
+}
+.SNMPSecurViews .filterRow td,
+.qos_policyClassMaps_m .filterRow td{
+padding:0px 8px 0px 0px;
+}
+.AddSNMPSecurGroupProf .ctrlSpacing #lblV1,
+.AddSNMPSecurGroupProf .ctrlSpacing #lblV2,
+.AddSNMPSecurGroupProf .ctrlSpacing #lblV3,
+.AddSNMPSecurGroupProf .ctrlSpacing #lblNANP,
+.AddSNMPSecurGroupProf .ctrlSpacing #lblANP,
+.AddSNMPSecurGroupProf .ctrlSpacing #lblAP,
+.AddSNMPSecurGroupProf #lblEnable1,
+.AddSNMPSecurGroupProf #lblEnable2,
+.AddSNMPSecurGroupProf #lblEnable3,
+.AddSNMPSecurGroupProf #lblR1_Read,
+.AddSNMPSecurGroupProf #lblR2_Read,
+.AddSNMPSecurGroupProf #lblR3_Read,
+.AddSNMPSecurGroupProf #lblR1_Write,
+.AddSNMPSecurGroupProf #lblR2_Write,
+.AddSNMPSecurGroupProf #lblR3_Write,
+.AddSNMPSecurGroupProf #lblR1_Notify,
+.AddSNMPSecurGroupProf #lblR2_Notify,
+.AddSNMPSecurGroupProf #lblR3_Notify,
+.EditSNMPSecurGroupProf .ctrlSpacing #lblV1,
+.EditSNMPSecurGroupProf .ctrlSpacing #lblV2,
+.EditSNMPSecurGroupProf .ctrlSpacing #lblV3,
+.EditSNMPSecurGroupProf .ctrlSpacing #lblNANP,
+.EditSNMPSecurGroupProf .ctrlSpacing #lblANP,
+.EditSNMPSecurGroupProf .ctrlSpacing #lblAP,
+.EditSNMPSecurGroupProf #lblEnable1,
+.EditSNMPSecurGroupProf #lblEnable2,
+.EditSNMPSecurGroupProf #lblEnable3,
+.EditSNMPSecurGroupProf #lblR1_Read,
+.EditSNMPSecurGroupProf #lblR2_Read,
+.EditSNMPSecurGroupProf #lblR3_Read,
+.EditSNMPSecurGroupProf #lblR1_Write,
+.EditSNMPSecurGroupProf #lblR2_Write,
+.EditSNMPSecurGroupProf #lblR3_Write,
+.EditSNMPSecurGroupProf #lblR1_Notify,
+.EditSNMPSecurGroupProf #lblR2_Notify,
+.EditSNMPSecurGroupProf #lblR3_Notify {
+padding:0px 10px 0px 10px;
+}
+.AddSNMPSecurGroupProf .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child,
+.EditSNMPSecurGroupProf .dialogBoxBody > table > tbody > tr:not(:first-child) > td:first-child {
+padding-left:20px;
+}
+.AddSNMPSecurGroupProf table tr td h4.titleLbl.pt15,
+.EditSNMPSecurGroupProf table tr td h4.titleLbl.pt15,
+.AddSNMPSecurGroupProf .hrTD,
+.EditSNMPSecurGroupProf .hrTD {
+padding-top: 15px;
+}
+.AddSNMPSecurGroupProf #addTable1 #lblAddGroup,
+.EditSNMPSecurGroupProf #editTable1 #lblEditGroup {
+width:100%;
+}
+.addNotifFilter #tdNotifFilterNameRange {
+display: none;
+}
+.addNotifFilter #mibTreeSelect {
+width: 194px;
+height: 64px;
+}
+.addNotifFilter #lblAddNotFilter {
+width: 100%;
+}
+.addNotifFilter img.hr {
+width: 97%;
+}
+.addNotifFilter #pageMessageID {
+margin-top: 0;
+margin-bottom: 0;
+}
+.addNotifFilter .dialogBoxBody #lblObjId_separator,
+.addNotifFilter .dialogBoxBody #lblSelFromList_separator {
+padding-right: 0;
+}
+.SNMPSecurGroupProf_m #tblSnmpSecurGroupProfile tbody tr > td {border-right:1px solid white;padding-left:8px;padding-right:8px;}
+.SNMPSecurGroupProf_m #tblSnmpSecurGroupProfile tbody tr > td:last-child {border-right:none;}
+.SNMPSecurGroupProf_m #tblSnmpSecurGroupProfile tfoot tr > td { padding:0px; }
+.editNotifFilter #pageMessageID {
+margin-top: 0px;
+padding-bottom: 0px;
+}
+.editNotifFilter img.hr {
+width: 97%;
+}
+.editNotifFilter #lblEditNotFilter {
+width: 100%;
+}
+.ipconf_arp_a #addTable1 .hr,
+.ipconf_arp_e #editTable1 .hr{
+width:98%;
+}
+.ipconf_arp_a #addTable1 #lblAddARP,
+.ipconf_arp_e #editTable1 #lblEditEntry {
+width:100%;
+}
+.ipconf_arp_a #addTable1 #txtMac,
+.ipconf_arp_a #addTable1 #txtIP,
+.ipconf_arp_e #editTable1 #txtMac {
+width:130px;
+}
+.staticAddress #lblTblName {
+font-weight: bold;
+}
+.addSaticAddressess img.hr {
+width: 97%;
+}
+.addSaticAddressess #pageMessageID {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.addSaticAddressess #lblAddNotFilter {
+width: 100%;
+}
+.addSaticAddressess #FirstUniqUnitPortsLagsHTML td:first-child,
+.addSaticAddressess #tdLblPort,
+.addSaticAddressess .right,
+.addSaticAddressess #tdLblLag {
+padding-right: 5px;
+}
+.addSaticAddressess #tr_rdoPermanent_1 input[type="radio"] + label {
+padding-right: 5px;
+}
+.addSaticAddressess #lblPermanent, .addSaticAddressess #lblDelOnReset,
+.addSaticAddressess #lblDelOnTime {
+padding-right: 20px;
+}
+.addReservedMacAddress #lblAddreservedAddress {
+width: 100%;
+}
+.addReservedMacAddress #pageMessageID {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.addReservedMacAddress img.hr {
+width: 97%;
+}
+.addReservedMacAddress #tr_rdoFrameTypeEthV2_1 input[type="radio"] + label,
+.addReservedMacAddress #tr_rdoActionBridge_1 input[type="radio"] + label {
+padding-right: 5px;
+}
+.addReservedMacAddress #lblFrameTypeEthV2, .addReservedMacAddress #lblFrameTypeLlc,
+.addReservedMacAddress #lblFrameTypeLlcSnap, .addReservedMacAddress #lblActionBridge {
+padding-right: 20px;
+}
+.editReservedMacAddress #lblEditReservedMacAddress {
+width: 100%;
+}
+.editReservedMacAddress #pageMessageID {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.editReservedMacAddress img.hr {
+width: 97%;
+}
+.editReservedMacAddress #tr_rdoFrameTypeEthV2_1 input[type="radio"] + label,
+.editReservedMacAddress #tr_rdoActionBridge_1 input[type="radio"] + label {
+padding-right: 5px;
+}
+.editReservedMacAddress #lblFrameTypeEthV2,
+.editReservedMacAddress #lblFrameTypeEthV2,
+.editReservedMacAddress #lblFrameTypeLlcSnap,
+.editReservedMacAddress #lblActionBridge,
+.editReservedMacAddress #lblFrameTypeLlc {
+padding-right: 20px;
+}
+.multicastProperty #lblStatusCb {
+padding-left: 1px;
+}
+.multicastProperty td#chkMLDStatus_lblWrapper label {
+margin-left: 10px;
+}
+.multicastProperty #MLDSnooping > thead tr td,
+.multicastProperty #MLDSnooping > tbody tr td {
+border-left: 1px solid #FFFFFF;
+border-right: 1px solid #FFFFFF;
+padding: 0 8px;
+}
+.multicastProperty #MLDSnooping th {
+font-weight: bold;
+}
+.eventLog #trFilter th {
+padding: 10px 0;
+}
+.eventLog #tblMain tr[id^="row_"] > td:not(:first-child) {
+border-left: none;
+}
+.MLDSnooping_popup_xml #addTable1 #lblPopupTitle {
+width:100%;
+}
+.quosToQueue #verticTable {
+background: #f9f9f9;
+}
+.quosToQueue #lblClass, .quosToQueue #lblQueue {
+font-size: 13px;
+font-weight: bold;
+padding-top: 10px;
+}
+.dscpToQueue #tblDSCPQueue {
+background: #f9f9f9;
+}
+.dscpToQueue #tblDSCPQueue table th {
+font-size: 13px;
+font-weight: bold;
+padding-top: 10px;
+}
+.dscpToQueue .dscp {
+padding-right: 20px;
+}
+#gwBody #xmlresult .LLDPMEDPSD {
+padding: 0;
+}
+.LLDPMEDPSD h4 {
+padding: 4px 0 0 0;
+}
+.LLDPMEDPSD #oLLDPMedPrtSetDet th {
+font-weight: bold;
+}
+.LLDPMEDPSD td:first-child {
+padding-left: 20px;
+width: 0;
+}
+.LLDPMEDPSD > table > tbody > tr > td:not(.groupSpacing) {
+padding-bottom: 10px;
+}
+.LLDPMEDPSD #lblHeaderGlobal, .LLDPMEDPSD #lblHeaderMngAddr, .LLDPMEDPSD #lblHeaderMEDDet, .LLDPMEDPSD #lblHeaderLoc {
+font-weight: bold;
+}
+.EditBridgSpanTreeSTPInterfaceStngs .dialogBoxBody .hr {
+width: 98%;
+}
+.EditBridgSpanTreeSTPInterfaceStngs table tr td h4.titleLbl.pt15,
+.EditBridgSpanTreeSTPInterfaceStngs .hrTD {
+padding-top:15px;
+}
+.EditBridgSpanTreeSTPInterfaceStngs #lblPort,
+.EditBridgSpanTreeSTPInterfaceStngs #lblLAG,
+.EditBridgSpanTreeSTPInterfaceStngs #lblDefaultPathCostManual {
+padding:0px 10px 0px 10px;
+}
+.EditBridgSpanTreeSTPInterfaceStngs #lblDefaultPathCost,
+.EditBridgSpanTreeSTPInterfaceStngs #lblHintPathCost {
+padding-left:10px;
+}
+[for="chkLLDPAuto"] {
+margin-right: 8px;
+}
+#tdApply > table {
+margin: 0 10px 0 0;
+}
+table.dataTable th:not([colspan]) {
+padding: 4px 8px !important;
+background-color: #CCE1F7;
+border-left: 1px solid #FFFFFF;
+color: #303030;
+font-weight: normal;
+line-height: 20px;
+overflow: hidden;
+vertical-align: top;
+font-size: 12px;
+width: 0px;
+}
+#oLLDPMedNWPol > thead > tr > th {
+font-weight: bold;
+}
+#tdPolicyNumber, #tdPolicyNumber + td {
+padding-bottom: 15px;
+}
+#tdLblRbTagged {
+width: 20px;
+}
+#xmlresult .dialogBoxBody table tr table tr td#tdLblHintVid label.hint {
+padding-left: 0;
+}
+.editPort .dialogBoxBody > table > tbody > tr:not(:first-child) > #tdLblVType {
+padding-left: 20px;
+}
+.bridgSpanTreeMSTPProp_m #Table1 label.left,
+.bridgSpanTreeMSTPProp_m #lblRegionRange {
+padding-left:10px;
+}
+.bridgSpanTreeMSTPProp_m #lblHintRevision,
+.bridgSpanTreeMSTPProp_m #lblHintMaxHops {
+padding:0px 40px 0px 10px;
+}
+#footer {
+padding-top: 15px;
+}
+.bridgSpanTreeMSTPProp_m table#Table2 tr[id^="row_"] > td:not(:first-child) {
+border-left: 1px solid #fff;
+padding-left: 8px;
+padding-right: 8px;
+}
+#tblLLDPNeighborList {
+overflow-x: hidden;
+margin-bottom: 20px;
+}
+#tblLLDPNeighborList table {
+background: #f9f9f9;
+}
+#tblLLDPNeighborList td table td:not([colspan="2"]) {
+padding-bottom: 13px;
+padding-left: 20px;
+}
+#tblLLDPNeighborList td table td[colspan="2"] {
+padding:0 10px 10px 10px
+}
+#tblLLDPNeighborList td table td:nth-of-type(2) {
+width: 65%;
+}
+#tblLLDPNeighborList td table td.line {
+padding-bottom: 0;
+}
+#tblLLDPNeighborList td table tr.titleLine td {
+padding-left: 0;
+}
+#tblLLDPNeighborList td table h2.subTitle {
+background: #FFFFFF;
+color: #A5A5A5;
+text-transform: uppercase;
+font-size: 16px;
+margin-bottom: 0;
+padding-bottom: 6px;
+padding-top: 14px;
+font-weight: normal;
+margin-top: 0;
+}
+#tblLLDPNeighborList td table h4.titleLbl {
+height: 22px;
+line-height: 24px;
+font-weight: bold;
+margin: 0 10px;
+}
+#tblLLDPNeighborList table.dataTable caption span.tblName {
+float: none;
+padding-left: 10px;
+}
+#oNeighborInformation #trFilter td#tdBtnGo table {
+margin: 0;
+}
+#xmlresult div#containeroNeighborInformation table#oNeighborInformation thead tr#trHeader th.lastTh,
+#xmlresult div#containeroNeighborInformation table#oNeighborInformation tbody tr td:nth-of-type(12) {
+border-right: 1px solid #e2e2e2;
+}
+#tblQOSESPQ #tdLbl_lblFilter,
+#tblQOSESPQ #tdLbl_lblFilter_EqualsTo {
+display: none;
+}
+#tblQOSESPQ th {
+font-weight: bold;
+}
+.editEgressShaping .dialogBox img.hr {
+width: 580px;
+}
+.editEgressShapingPopup #tdLblPort, .editEgressShapingPopup #tdLblLag {
+padding: 0 8px;
+}
+.editEgressShapingPopup .tdPortSelect {
+padding-right: 10px;
+}
+.editEgressShapingPopup .right .hint {
+margin-left: 10px;
+}
+.editEgressShapingPopup #Table1 {
+margin-top: 10px;
+}
+.editEgressShapingPopup .checkbox + label {
+margin-right: 10px;
+}
+.editEgressShapingPopup #lblCir1Hint,
+.editEgressShapingPopup #lblCir2Hint,
+.editEgressShapingPopup #lblCir3Hint,
+.editEgressShapingPopup #lblCir4Hint {
+text-transform: lowercase;
+}
+.editEgressShapingPopup h4.grand {
+margin-bottom: 0px;
+}
+.CopperTest #Table1 label.left {
+padding-left: 10px;
+}
+#tblMain .formBody #tbl_DHCPAutoConfig > tbody > tr:not(.titleLine) > td {
+padding-bottom: 15px;
+}
+#tblMain .formBody #tbl_DHCPAutoConfig > tbody > tr.trBottom11 > td {
+padding-bottom: 11px;
+}
+#tblMain .formBody #tbl_DHCPAutoConfig > tbody > tr:not(.titleLine) > td:nth-of-type(1) {
+padding-left: 20px;
+}
+#tblMain .formBody #tbl_DHCPAutoConfig > tbody > tr.titleLine > td {
+padding-bottom: 15px;
+}
+#tblMain .formBody #tbl_DHCPAutoConfig tr#trDownloadProtocol td,
+#tblMain .formBody #tbl_DHCPAutoConfig tr#trIPFormat td {
+padding-bottom: 0;
+}
+#tbl_DHCPAutoConfig #chkAutoConfig_tdLblCont,
+#tbl_DHCPAutoConfig #lblConfFileRange {
+padding-left: 10px;
+}
+#tbl_DHCPAutoConfig .right {
+width: 100px;
+}
+#tbl_DHCPAutoConfig #tderrHostIp {
+padding-right: 10px;
+}
+.editEgressShaping .filterRow > td {
+background: none repeat scroll 0 0 #ebebeb;
+padding-top: 15px;
+}
+.editEgressShapingPopup #pageMessageID {
+margin-left: 20px;
+}
+.editEgressShapingPopup #mainPageForm {
+overflow:hidden;
+width:745px;
+}
+#slctProfilesNames {width: 170px;}
+@-moz-document url-prefix() {
+#slctProfilesNames {width: 188px !important;}
+}
+.SNMPFC #trlblSNMPNoti > td,
+.SNMPFC td#tdlblLocalEngineID {
+padding-top: 7px;
+}
+.aggregatePolicerStat #lblTblName {
+font-weight: bold;
+}
+.addAggregatePolicerStat #pageMessageID {
+margin-top: 0px;
+}
+#Table1 > .ProfDSCPMapping > tbody > tr:not(.titleLine) > td:first-child,
+.Table1 > .ProfDSCPMapping > tbody > tr:not(.titleLine) > td:first-child,
+.ProfDSCPMapping > tbody > tr:not(.titleLine) > td:first-child {
+padding-left:0px;
+padding-right:0px;
+}
+.ProfDSCPMapping tr.evenTR {
+background:none;
+}
+.ProfDSCPMapping tr {
+height:30px;
+}
+table.ProfDSCPMapping tr td,
+table.ProfDSCPMapping > tbody > tr > td:first-child {
+padding-left:0px !important;
+padding-right:0px !important;
+}
+.macBaceGroupAdd #pageMessageID {
+margin-bottom: 0px;
+}
